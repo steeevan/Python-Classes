@@ -1,1 +1,0 @@
-Note: This curriculum plan is designed for absolute beginners with no prior programming experience. Each lesson should include hands-on coding exercises and practical examples to reinforce the concepts learned. As students progress through the curriculum, encourage them to work on projects and real-world applications to gain confidence and proficiency in Python programming.
