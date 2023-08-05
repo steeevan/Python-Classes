@@ -1,0 +1,29 @@
+
+
+**Problem 1:** Create a program that calculates the area of a rectangle. Ask the user to input the length and width of the rectangle and display the calculated area.
+
+**Problem 2:** Write a program that calculates the square of the first 10 positive integers and stores the results in a list. Print the list of squares.
+
+**Problem 3:** Implement a program that checks if a given year is a leap year. Ask the user to input a year and display whether it's a leap year or not.
+
+**Problem 4:** Create a program that simulates a simple ATM machine. Allow the user to deposit and withdraw funds from their account. Keep track of the account balance.
+
+**Problem 5:** Write a program that prompts the user for their age and checks if they are eligible to vote (18 years or older).
+
+**Problem 6:** Implement a temperature conversion program that converts Fahrenheit to Celsius. Ask the user for a temperature in Fahrenheit and display the equivalent temperature in Celsius.
+
+**Problem 7:** Create a program that generates a list of the first 20 odd numbers. Print the list.
+
+**Problem 8:** Write a program that asks the user to input a number and determines if it's a prime number.
+
+**Problem 9:** Implement a basic grade calculator. Ask the user to input a percentage score and display their corresponding letter grade (A, B, C, D, F).
+
+**Problem 10:** Create a program that generates a random number between 1 and 50. Allow the user to guess the number and provide feedback (higher, lower, or correct) until they guess it correctly.
+
+**Problem 11:** Write a program that takes a list of numbers as input and prints the sum of all the numbers divisible by 3 in the list.
+
+
+
+
+
+These problems offer a mix of mathematical calculations, decision-making based on conditions, and user interaction to help solidify your understanding of Python fundamentals.
