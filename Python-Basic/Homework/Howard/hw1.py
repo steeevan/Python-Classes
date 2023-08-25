@@ -4,6 +4,12 @@ width = int(input("please input the width of rectangular:"))
 area = length*width
 print("the area of the rectangular is",area)
 
+#q2
+h = []
+for i in range(1:11):
+  h.append(i*i)
+print(h)
+
 #q5
 t = int(input("how old are you"))
 if t < 18:
