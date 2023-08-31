@@ -72,7 +72,7 @@ for j in l:
 print(o)
 
 
-#I haven't leraned this yet in math
+#question 11 I haven't learned this yet in math
 
 #problem7 question12
 import random
