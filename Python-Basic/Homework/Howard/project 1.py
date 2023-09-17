@@ -9,12 +9,12 @@ while quit_or_not == 0:
  print("4. quit")
 
  p = {}
- w = int(input("pick 1, 2, 3, or 4"))
+ w = int(input("pick 1, 2, 3, or 4: "))
  if w == 1:
-  k = (input("enter a task title"))
+  k = (input("enter a task title: "))
   p["task_title"] = k
  
-  t = (input("enter a task description"))
+  t = (input("enter a task description: "))
   p["task_description"] = t
   p["status"] = "incomplete" 
   tasks.append(p)
@@ -30,7 +30,7 @@ while quit_or_not == 0:
     c += 1
  
  elif w == 3:
-   dohicky = int(input("Enter the task number to mark as complete:"))
+   dohicky = int(input("Enter the task number to mark as complete: "))
    p = tasks[dohicky - 1]
    p["status"] = "complete"
    print("Task",p["task_title"],"marked as complete!😊")
