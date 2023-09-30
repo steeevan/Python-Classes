@@ -1,0 +1,25 @@
+#Problem1
+def calculate_average(num1, num2):
+    average = (num1 + num2) / 2
+    return average
+result = calculate_average(10, 20)
+print("The average of these numbers is:", result)
+
+
+#Problem2
+def is_even(number):
+  number = 5
+  return is_even
+  if number % 2 = 0:
+    print("True")
+  else: 
+    print("False")
+    return
+
+
+#Problem3
+def calculate_factorial(n):
+for i in n:
+  product = n*(n-1)
+  return product
+print(calculate_factorial)
