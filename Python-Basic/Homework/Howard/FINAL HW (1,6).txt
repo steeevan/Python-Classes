@@ -1,0 +1,99 @@
+# FINAL HOMEWORK EXERCISE 1 AND 6
+
+# EXERCISE 1
+
+# INTEGER USE int TO REPRESENT
+int intt
+intt = 123
+
+# FLOAT IS A DECIMAL USE float TO REPRESENT
+float flo
+flo = 2.33333
+
+# STRING use str to represent
+str strr
+strr = "Hello my name is Howard."
+
+# BOOLEAN use bool to represent
+bool boo
+boo = False
+
+
+
+# exercise 6
+# local variable = only can be used within the function
+# y is the example of a local variable
+# global variable = can be used anywhere after it is defined in the code
+# x is the example of a global variable
+x = 300
+def myfunc():
+    y = "hello!!!"
+    print(y)
+print(x)
+
+# Information can be passed into functions as a parameter
+# fname and fage is the example of a function parameter
+def my_function(fname, fage):
+  print(fname,"'s age is: ",fage)
+
+  
+# The python return statement is used to return the output from a function
+# the code below returned the price of the item with tax and discount
+def calculate_total_cost(item_price, tax_rate, discount_percentage):
+    price = item_price * (1 - discount_percentage/100) * (tax_rate/100 + 1)
+    return price
+
+# A syntax error occurs due to missed reserved keywords, spaces, quotes placed improperly, indentations and incorrect usage of blocks, invalid declarations, and if the function calls and definitions aren't done properly.
+# the user typed for wrong he typed fro
+# fro i in range(10):
+
+# data type conversion means changing a data type of a value
+# int is a data type conversion, it is changing it from a string to a integer
+number = int(input("input a number"))# FINAL HOMEWORK EXERCISE 1 AND 6
+
+# EXERCISE 1
+
+# INTEGER
+intt = 123
+
+# FLOAT
+flo = 2.33333
+
+# STRING
+strr = "Hello my name is Howard."
+
+# BOOLEAN
+boo = False
+
+
+
+# exercise 6
+# local variable = only can be used within the function
+# y is the example of a local variable
+# global variable = can be used anywhere after it is defined in the code
+# x is the example of a global variable
+x = 300
+def myfunc():
+    y = "hello!!!"
+    print(y)
+print(x)
+
+# Information can be passed into functions as a parameter
+# fname and fage is the example of a function parameter
+def my_function(fname, fage):
+  print(fname,"'s age is: ",fage)
+
+  
+# The python return statement is used to return the output from a function
+# the code below returned the price of the item with tax and discount
+def calculate_total_cost(item_price, tax_rate, discount_percentage):
+    price = item_price * (1 - discount_percentage/100) * (tax_rate/100 + 1)
+    return price
+
+# A syntax error occurs due to missed reserved keywords, spaces, quotes placed improperly, indentations and incorrect usage of blocks, invalid declarations, and if the function calls and definitions aren't done properly.
+# the user typed for wrong he typed fro
+# fro i in range(10):
+
+# data type conversion means changing a data type of a value
+# int is a data type conversion, it is changing it from a string to a integer
+number = int(input("input a number"))
