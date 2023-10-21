@@ -1,0 +1,58 @@
+def get_name ():
+
+    """
+    Function: get_name
+    Description: Prompts user to enter their character name
+    Input:
+    Output:
+    + userName : (string) this contains the name entered
+    """
+    userName = input("Enter your username for your character: ")
+    return userName
+def Pick_Role ():
+    print("Pick a between a Knight, a Wizard, a Healer")
+    print("Choose a role for your game")
+    print("BE WISE 0_0")
+    for i in range(3):
+        roles = ["Knight","Wizard","Healer"]
+    
+        print(i+1,".",roles[i])
+    RoleChoosen = int(input("Enter the number associated to the role: "))
+    if RoleChoosen == 1:
+        print("You have choose to become a knight 🂬")
+        description = '''Knights are revered and honorable warriors who have dedicated their lives to the service of their kingdom, upholding a code of chivalry and defending their realm with valor and unwavering loyalty. As a knight, your primary duty is to protect your liege, the realm, and its people from threats both external and internal. You are a symbol of justice, courage, and nobility.
+    '''
+        print(description)
+    elif RoleChoosen == 2:
+        print("You choose to become a wizard")
+        description = '''Healers are compassionate and skilled individuals who possess the unique ability to mend injuries, cure ailments, and restore the health of others. Their primary role is to provide vital medical care and support to individuals in need, whether on the battlefield, in a medical facility, or during everyday life. Healers play a crucial role in promoting well-being and ensuring the recovery of the wounded and ill.'''
+        print(description)
+
+        
+    elif RoleChoosen == 3:
+     print("You choose to become a healer")
+     description = '''Healers are compassionate and skilled individuals who possess the unique ability to mend injuries, cure ailments, and restore the health of others. Their primary role is to provide vital medical care and support to individuals in need, whether on the battlefield, in a medical facility, or during everyday life. Healers play a crucial role in promoting well-being and ensuring the recovery of the wounded and ill.'''
+     print(description)
+        
+    return RoleChoosen
+   
+    
+def show_player_info(TPlayersDictionary):
+    print("Name: ", TPlayersDictionary["name"],"Role: ", TPlayersDictionary["Role"])
+
+
+
+def main():
+    playersName = get_name()
+    print("Welcoem to my game! ", playersName)
+    print("You have been chosen to explore this realm!")
+   
+    playersRole = Pick_Role()
+    PlayersDictionary = {"name":playersName,"Role":playersRole}
+    print(PlayersDictionary)
+    show_player_info(PlayersDictionary)
+    
+
+if __name__ == "__main__":
+    main()
+
