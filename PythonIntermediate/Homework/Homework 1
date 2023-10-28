@@ -1,0 +1,79 @@
+import turtle
+t = turtle.Turtle()
+screen = turtle.Screen
+
+#Ex.1
+#Square
+t.forward(100)
+t.right(90)
+t.forward(100)
+t.right(90)
+t.forward(100)
+t.right(90)
+t.forward(100)
+
+#Circle
+t.circle(50)
+
+#Color
+t.right(90)
+t.penup()
+t.forward(100)
+t.right(90)
+t.pendown()
+t.forward(100)
+
+t.penup()
+t.right(90)
+t.penup()
+t.forward(100)
+t.pendown()
+t.right(90)
+t.forward(100)
+t.fillcolor("green")
+t.end_fill()
+
+#Triangle
+t.fillcolor("brown")
+t.begin_fill()
+t.pencolor("purple")
+t.right(90)
+t.forward(100)
+t.pencolor("purple")
+t.left(120)
+t.forward(100)
+t.pencolor("purple")
+t.left(120)
+t.forward(100)
+t.end_fill()
+
+
+#Ex.2(glasses)
+t.fillcolor("black")
+t.begin_fill()
+t.circle(33)
+t.forward(100)
+t.circle(33)
+t.right(90)
+t.pendown()
+t.pencolor("yellow")
+t.right("90")
+t.circle(10)
+end_fill()
+
+#Ex.3
+print("Hello, please enter what step you would like. forward,backward,right, or left") 
+choice = input("Answer":)
+if forward:
+    t.forward(100)
+elif backward:
+    t.backward(100)
+elif right:
+    t.right(100)
+elif left:
+    t.left(100)
+else:
+    print("Invalid")
+
+
+
