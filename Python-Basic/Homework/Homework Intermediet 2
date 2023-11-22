@@ -1,0 +1,14 @@
+Problem #1
+import turtle
+import random
+screen = turtle.Screen()
+colors = ["red","orange","yellow","green","blue","purple"]
+def rand_shape(distance,Tlist):
+    t = turtle.Turtle()
+    t.speed(0)
+    for i in range(100):
+        t.color(random.choice(Tlist))
+        t.pensize(random.randint(1,5))
+        t.forward(distance)
+        t.right(10)
+    turtle.done()
