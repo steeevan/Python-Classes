@@ -1,1 +1,39 @@
+import time
 
+'''
+homework OOP
+'''
+#i pretty much just based it off the class code and added a location attribute, i couldn't exactly figure out how i should implement the speech part of the location so i just slapped it on the end of 'greet'
+class person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def greet(self):
+        print(f"Hello. My name {self.name} and I am {self.age} years old. I am currently in {self.place}")
+    def location(self, place):
+        self.place = place
+        
+person1 = person("Alton",13)
+person2 = person("Nobody", 0)
+
+person1.location("Chino Hills")
+person1.greet()
+time.sleep(3.5)
+print("")
+print("")
+person1.location("Paris")
+person1.greet()
+
+#in terms of application i tried to make a gun but failed
+'''
+class gun:
+    def __init__(self,name,bullet):
+        self.name = name
+        self.bullet = bullet
+    def fire(self, shoot):
+        self.shoot = (int(bullet) - 1)
+
+gun1 = gun("AK47", 30)
+gun1.fire
+print(f"You now have {self.bullet}s.")
+'''
