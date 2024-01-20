@@ -1,0 +1,54 @@
+class Animal: # Creating a class called animal
+    def __init__(self,make_sound,move):
+        self.make_sound = make_sound  # Creates a method "make_sound"
+        self.move = move # creates a method "move"
+        
+           
+
+
+class Dog(Animal): # Creates a class named dog (which inherits from the class "Animal")
+    def __init__(self,make_sound,move): # Same __init__ as the Animal class
+        super().__init__(move,make_sound) # Inherits class 
+        self.make_sound = make_sound # Same method setup
+        self.move = move  # Same method setup
+    def perform_action(self): # Custom function (perform_action) that prints the noises dogs make and the action 
+        print(f"The dog makes {self.make_sound} and {self.move}")
+class Cat(Animal): # Creates a class named cat (which inherits from the class "Animal")
+    def __init__(self,make_sound,move): # Same __init__ as the Animal class
+        super().__init__(move,make_sound) # Inherits class 
+        self.make_sound = make_sound # Same method setup
+        self.move = move # Same method setup
+    def perform_action(self):# Custom function (perform_action) that prints the noises cats make and the action 
+            
+        print(f"The cat makes {self.make_sound} and {self.move}")
+        
+
+cat1= Cat("Meow","purring") # A variable that uses OOP to create a blueprint. 
+dog1 = Dog("woof", "wagging tail") # A variable that uses OOP to create a blueprint.
+
+def Printer1(tbook): # Our printer function that takes a tbook (to hold the variable for it to print)
+    tbook.perform_action()
+Printer1(dog1)
+def Printer2(tbook): # Our second printer function that takes a tbook (to hold the variable for it to print)
+    tbook.perform_action()
+Printer2(cat1)
+
+
+class Employee():
+    def __init__ (self, name, age , salary):
+        self.name = name
+        self.age = age
+        self.salary = salary
+    def display_info(self):
+        print(f"Name: {self.name},Age: {self.age}, Salary: {self.salary}")
+class Manager(Employee):
+    def __init__(self, name, age, salary,department):
+        self.department = department
+        super().__init__(name, age, salary)
+    def display_info(self):
+        print(f"Name: {self.name},Age: {self.age}, Salary: {self.salary}, Department: {self.department}")
+employee1 = Employee("Joe",45, 10000)
+employee1.display_info()
+print("------------------------")
+manager1 = Manager("Treez",50,500000,"Sales Dep")
+manager1.display_info()
