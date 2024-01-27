@@ -1,0 +1,72 @@
+
+from abc import ABC, abstractmethod
+
+class BankAccount:
+    def __init__(self,account_number, balance=0 ):
+        self._account_number = account_number 
+        self._balance = balance
+    def get_accountnumber(self):
+        return  self._account_number
+    def get_balance(self):
+        return self._balance
+    def set_balance(self,new_balance):
+        if new_balance >= 0:
+            self._balance = new_balance
+        else:
+            print("⚠️ Balance cannot be below zero ⚠️")
+    def desposit(self , amount):
+        if amount >= 0:
+            self._balance += amount
+            print(f"Added {amount} to your bank now, you have {self._balance}")
+        else:
+            print("Error ⚠️ try again")
+    def withdraw(self, amount):
+        if amount > 0 and amount <= self._balance:
+            self._balance -= amount
+            print(f"Withdrawed {amount} from your bank account, you have {self._balance} now")
+        else:
+            print("Error ⚠️ try again")
+
+account1 = BankAccount("382717273736262",500)
+print(f"Account info: \n {account1.get_accountnumber()}")
+print(f"Account info: \n {account1.get_balance()}")
+
+account1.desposit(500)
+account1.withdraw(100000)
+#----
+
+
+
+
+class vehicle(ABC):
+    
+    def _init__(self, start_engine, StopEngine,drive):
+        self.start_engine = start_engine
+        self.drive = drive
+        self.stop_engine = StopEngine
+    @abstractmethod
+    def start (self):
+        pass
+    @abstractmethod
+    def stop (self):
+        pass
+    @abstractmethod
+    def driver (self):
+        pass
+   
+class car(vehicle):
+    def _init__(self, start_engine, StopEngine,drive):
+        self.start_engine = start_engine
+        self.drive = drive
+        self.stop_engine = StopEngine
+    def start(self):
+        print("start")
+    def stop(self):
+        print("stop")
+    def driver(self):
+        print("driving")
+
+car1 = car()
+car1.start()
+car1.driver()
+car1.stop()
