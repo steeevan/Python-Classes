@@ -1,0 +1,63 @@
+class Computer:
+    def __init__(self,CPU,RAM,STORAGE):
+        self.CPU = CPU
+        self.RAM = RAM
+        self.STORAGE = STORAGE
+        #CPU = STRING, RAM =INT, STORAGE = INT
+    def display_info(self):
+        print(f"CPU = {self.CPU} \nRAM = {self.RAM} \nStorage = {self.STORAGE}")
+computer1 = Computer("Intel Core I9",34,1)
+def print3(val):
+    val.display_info()
+#print3(computer1)
+
+class Monitor(Computer):
+    def __init__(self, CPU, RAM, STORAGE, SIZE, RESOLUTION):
+        super().__init__(CPU, RAM, STORAGE)
+        self.size = SIZE
+        self.resolution = RESOLUTION
+    def display_info(self):
+        print(f"CPU = {self.CPU} \nRAM = {self.RAM} \nStorage = {self.STORAGE} \nSIZE = {self.size}\n{self.resolution}")
+
+'''class Desktop(Computer and Monitor): # I dont really know what is the instruction for this part. And there is a TypeError for this as well
+    def __init__(self, CPU, RAM, STORAGE, SIZE, RESOLUTION):
+        Monitor.__init__(self,STORAGE,SIZE,RESOLUTION)
+        Computer.__init__(self,CPU,RAM,STORAGE)
+    def display_info(self):
+        print(f"CPU = {self.CPU} \nRAM = {self.RAM} \nStorage = {self.STORAGE} \nSIZE = {self.SIZE}\nResolution = {self.RESOLUTION}")
+
+Desktop1 = Desktop("test",2,3,2,3)
+
+
+print3(Desktop1)'''
+# real world application of composition
+
+'''
+House class scenario
+The house contains a attribute named adress. Also contains a function to add rooms into a list. Rooms by default has none. 
+There is a class named room, where it contains the area of the room (size) and the name of it.
+The add room function takes the room class and appends it into the room list. Then it prints the house info along with the list of rooms
+
+I created a variable named living_room, that also holds a room class, I inputed the information about the room. Using the add_room function, it takes the variable along with the information
+'''
+
+class room:
+    def __init__(self,area,name):
+        self.area = area
+        self.name = name
+class Home:
+    def __init__(self,adress):
+        self.adress = adress
+        self.room = []
+    def add_room(self,room):
+        self.room.append(room)
+    def info_display(self):
+        print(f"House adress: {self.adress} ")
+        for room in self.room:
+            print(f"Room Name: {room.area}, size: {room.name}")
+home1 = Home("1234 100ST")
+living_room = room(area=500,name="living room")
+bed_room = room(area=200,name="bedroom")
+home1.add_room(living_room)
+home1.add_room(bed_room)
+home1.info_display()
