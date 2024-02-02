@@ -1,0 +1,22 @@
+From abc import ABC, abstractmethod
+
+#Problem 1
+
+class Computer():
+  def __init__(cpu,ram,storage):
+    self.cpu = cpu
+    self.ram = ram
+    self.storage = storage
+
+class Monitor():
+  def __init__(cpu,ram,storage):
+    self.size = size
+
+#Problem 2
+
+#I don't understand the real life scenario problems
+
+#Notes
+
+#I don't know about monitor reolutions and I'm not sure about problem 1.3 
+#I don't know if you want me to do something with the classes too
