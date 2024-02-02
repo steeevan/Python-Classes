@@ -1,0 +1,28 @@
+#Problem 1
+class Person: 
+  def __init__(name,age):
+    self.name = name
+    self.age = age 
+    self.greet = greet
+
+  def display_info(self):
+    print(f"Name: {self.name}, Age: {self.age}, Greet: {self.greet}")
+
+Person1 = Person("Pete","28","Hello, I am Pete! Nice to meet you!")
+
+#Problem 2
+
+class PersonMove: 
+  def __init__(name,age):
+    self.move = move 
+    self.location = location
+
+  def display_info(self):
+    print(f"Move: {self.move}, Location: {self.location}")
+
+MovingPerson = Person("Moved 30 feet", "Pete has walked to the park")
+MovingPerson2 = Person("Moved 50 feet", "Pete has walked to the icecream truck")
+
+#Problem 3
+
+#Does not understand
