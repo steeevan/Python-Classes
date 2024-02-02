@@ -1,0 +1,28 @@
+#Problem 1
+
+class Animal:
+  def __init__(name,sound):
+    self.name = name
+    self.sound = sound
+
+  def display_info(self):
+    print(f"Name: {self.name}, Sound: {self.sound}")
+
+Dog = Animal("Dog","Bark")
+Cat = Animal("Cat","Meow")
+
+Dog.display_info()
+Cat.display_info()
+
+#Problem 2
+
+Dog.Make_Sound(Woof)
+Dog.Move(Run)
+Cat.Make_Sound(Meow)
+Cat.Move(Walk)
+Cat.Preform_Action(Sit)
+Dog.Preform_Action(Wave)
+
+#Problem 3 
+
+#I don't know how to make a real-world scene with inheritence
