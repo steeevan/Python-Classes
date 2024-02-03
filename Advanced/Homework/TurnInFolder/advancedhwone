@@ -1,0 +1,47 @@
+class Person:
+    def __init__(self, name, age, location):
+        self.name = name
+        self.age = age
+        self.location = location
+
+    def greet(self):
+        print(f"Hello, my name is {self.name}\nAt Location: {self.location}")
+
+
+person1 = Person("Jane", 23, "Main St")
+person1.greet()
+
+person2 = Person("Doe", 45, "Main St")
+person2.greet()
+
+
+
+#---------------------
+class User:
+    def __init__(self,username, email):
+        self.username = username
+        self.email = email
+        self.friends = []
+    def add_friend(self,friend):
+        self.friends.append(friend)
+class Friends:
+    def __init__(self,user1,user2):
+        self.user1 = user1
+        self.user2 = user2
+
+
+class Post:
+    def __init__(self,content,date):
+        self.content = content
+        self.date = date
+        self.likes = 0
+    def like_post(self):
+        self.like += 1
+user1 = User("Aercaii","aercaii@gmail.com")
+user2 = User("red330","red330@gamil.com")
+user3 = User("red3303","red3330@gamil.com")
+user2.add_friend(user3)
+user3.add_friend(user1)
+post1 = Post("jejejeje","feb 2")
+post2 = Post("jejejeje","feb 22")
+print(post2)
