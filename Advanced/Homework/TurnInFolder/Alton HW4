@@ -1,0 +1,48 @@
+class Computer:
+    def __init__(self, cpu, ram, storage):
+        self.cpu = cpu
+        self.ram = ram
+        self.storage = storage
+    def display_info(self):
+        print(f"Specs: CPU : {self.cpu} RAM : {self.ram} STORAGE : {self.storage} GB")
+        
+class Monitor:
+    def __init__(self, size, resolution):
+        self.size = size
+        self.resolution = resolution
+    def display_info(self):
+        print(f"Specs: SIZE : {self.size} RESOLUTION : {self.resolution}")
+
+class Desktop:
+    def __init__(self, computer, monitor):
+        self.computer = computer
+        self.monitor = monitor
+    def display_specs(self):
+        print(f"Specs: CPU : {self.cpu} RAM : {self.ram} STORAGE : {self.storage} GB")
+        print(f"Specs: SIZE : {self.size} RESOLUTION : {self.resolution}")
+
+#I think something chemical related
+
+class Chemical:
+    def __init__(self, sign, proton, neutron, electron):
+        self.sign = sign
+        self.proton = proton
+        self.neutron = neutron
+        self.electron = electron
+    def display_info(self):
+        print(f"({self.sign}) Protons: {self.proton} Neutrons : {self.neutron} Electrons : {self.electron}")
+
+class Compound:
+    def __init__(self, formula):
+        self.formula = formula
+    def combine(self):
+        formula = chemical1 + '' + chemical2
+    def display_info(self):
+        print(f"({self.formula})")
+
+chemical1 = Chemical("Na", 11, 11, 12)
+chemical2 = Chemical("Cl", 17, 18, 17)
+
+compound1 = Compound(formula)
+
+#Doesn't work haha
