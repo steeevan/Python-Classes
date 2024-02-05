@@ -1,0 +1,77 @@
+from abc import ABC, abstractmethod
+
+class BankAccount:
+    def __init__(self, account_number, balance):
+        self.account_number = account_number
+        self._balance = balance
+    def get_balance(self):
+        print(self._balance)
+    def set_balance(self, balance_new):
+        self._balance = balance_new
+    def withdraw(self, withdraw):
+        if self._balance <= withdraw:
+            print("Not Enough Currency.")
+        else:
+            self._balance -= withdraw
+
+bankacc1 = BankAccount("1234567890", 500)
+bankacc1.withdraw(501)
+
+class Vehicle(ABC):
+    def __init__(self, make, model):
+        self.make = make
+        self.model = model
+    @abstractmethod
+    def start_engine(self):
+        pass
+    @abstractmethod
+    def stop_engine(self):
+        pass
+    @abstractmethod
+    def drive(self):
+        pass
+
+class Car(Vehicle):
+    def start_engine(self):
+        print(f"Starting Engine. {self.make} {self.model}")
+    def stop_engine(self):
+        print(f"Stopping Engine. {self.make} {self.model}")
+    def drive(self):
+        print(f"Drive Gear switched. {self.make} {self.model}")
+
+def main():
+    car1 = Car("Tesla", "S")
+    car1.start_engine()
+    car1.stop_engine()
+    car1.drive()
+
+if __name__ == "__main__":
+    main()
+
+#I think nuke launch codes would work
+
+class Ncodes(ABC):
+    def __init__(self, name, area, code):
+        self.name = name
+        self.area = area
+        self.code = code
+    @abstractmethod
+    def unlock(self):
+        pass
+    @abstractmethod
+    def launch(self):
+        pass
+
+class Nuke(Ncodes):
+    def unlock(self):
+        print(f"Code: {self.code}")
+    def launch(self):
+        print(f"{self.name} is primed for {self.area}. Launch sequence initiated.")
+
+def main():
+    nuke1 = Nuke("Mamma Mia", "Your Mom's House", 69420)
+    nuke1.unlock()
+    nuke1.launch()
+
+if __name__ == "__main__":
+    main()
