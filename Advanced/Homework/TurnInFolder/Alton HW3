@@ -54,7 +54,7 @@ class Ncodes(ABC):
     def __init__(self, name, area, code):
         self.name = name
         self.area = area
-        self.code = code
+        self._code = code
     @abstractmethod
     def unlock(self):
         pass
@@ -64,7 +64,7 @@ class Ncodes(ABC):
 
 class Nuke(Ncodes):
     def unlock(self):
-        print(f"Code: {self.code}")
+        print(f"Code: {self._code}")
     def launch(self):
         print(f"{self.name} is primed for {self.area}. Launch sequence initiated.")
 
