@@ -1,0 +1,29 @@
+# 1.
+age = 11
+name = "Fann"
+temp = 58.5
+sunny = False
+
+# 2.
+print("My age is", age)
+print("My name is", name,)
+print("The temperature outside is", temp, "degrees.")
+print("It is sunny:", sunny)
+
+# 3.
+# age: The "age" variable's purpose is to show the age of the student as a number. It's corresponding data type is an integer.
+# name: The "name" variable's purpose is to show the name of the student as a word. It's corresonding sata type is a string.
+# temp: The "temp" variable's purpose is to show what temperature it is outside as a number. It's corresponding data type is a float.
+# sunny: The "sunny" variable's purpose is to show if it is sunny or not outside as a true or false. It's corresponding data type is a boolean.
+
+# 4.
+age = int(input("What is your age?"))
+
+# 5.
+celsius = float(input("What degrees celsius is it?"))
+
+# 6.
+print("You are", age, "years old.")
+print("It is", celsius, "degrees celsius.")
+
+
