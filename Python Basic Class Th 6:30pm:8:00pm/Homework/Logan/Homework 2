@@ -1,0 +1,35 @@
+Answer 1
+age=int(10)
+print("My age is",age)
+temp=86.4
+print("It is ",temp ,"C outside")
+name="Logan""Chow"
+print("My name is",name)
+sunny=True
+print("Today is sunny",True)
+
+Answer 2,
+print("My age is 10")
+print("My name is Logan")
+print("The temperature outside is 79.4 degrees")
+print("It is sunny True")
+
+Answer 3
+An integer is a data type representing numbers without decimal points.
+A string is a data type representing a sequence of characters in python.
+A float is a data type representing numbers with decimal points in python.
+A boolean is a data type representing the binary values of True and False.
+
+Answer 4,
+age=input("What is your age?")
+print("your age is",age)
+
+Answer 5,
+temp=input("What is the temperature in C?")
+print("The temperature is ",temp," C")
+
+Answer 6,
+agee=input("What is your age?")
+print("You are", agee ,"years old")
+ttemp=input("What is the temperature in celsius?")
+print("The temperature in celsius is",ttemp,"degrees")
