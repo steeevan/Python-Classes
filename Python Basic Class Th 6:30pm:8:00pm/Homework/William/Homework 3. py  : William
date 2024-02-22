@@ -16,6 +16,7 @@ print("It is sunny:", Whe)
 #Like 1+1=2
 #If you want to add, but it not integer, the system won't work or it will come out something like 1+1=11
 #Repeating: The purpose of data type is to split info so you can use it correctly the way you want.
+#The Variable is to save the information you want.
 #Answer 4
 Age2= int(input("How old are you"))
 #Answer 5
