@@ -1,0 +1,25 @@
+#Answer 1
+Age= 11
+Name=("William Zhu")
+Tem= ("27.5 degree")
+Whe=True
+#Answer 2
+print("My age is", Age)
+print("My name is", Name)
+print("The temperature outside is", Tem)
+print("It is sunny:", Whe)
+#Answer 3
+#The purpose of variable is to store info differently
+#It detailed, there is Data type
+#Data type is used to split different type of info
+#For example integer store information like whole number so you can add.
+#Like 1+1=2
+#If you want to add, but it not integer, the system won't work or it will come out something like 1+1=11
+#Repeating: The purpose of data type is to split info so you can use it correctly the way you want.
+#Answer 4
+Age2= int(input("How old are you"))
+#Answer 5
+Tem2= float(input("What the temperature in celsius"))
+#Answer 6
+print("You are", Age2, ("years old."))
+print("The temperature in celsius is", Tem2, ("degree"))
