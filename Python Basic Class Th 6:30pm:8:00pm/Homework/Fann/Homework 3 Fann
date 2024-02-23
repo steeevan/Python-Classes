@@ -1,0 +1,36 @@
+# 1.
+num1 = 3
+num2 = 1764
+
+# 2.
+add = num1 + num2
+sub = num2 - num1
+mult = num1 * num2
+divis = num2 / num1
+mod = num2 % num1
+
+# 3.
+print("The sum is", add)
+print("The difference is", sub)
+print("The product is", mult)
+print("The quotient is", divis)
+print("The remainder is", mod)
+
+# 4.
+result1 = num1 == num2
+result2 = num1 != num2
+result3 = num1 > num2
+result4 = num1 < num2
+result5 = num1 >= num2
+result6 = num1 <= num2
+
+# 5.
+print("Is num1 equal to num2? True/False.", result1)
+print("Is num1 not equal to num2? True/False.", result2)
+print("Is num1 greater than num2? True/False.", result3)
+print("Is num1 less than num2? True/False.", result4)
+print("Is num1 greater than or equal to num2? True/False.", result5)
+print("Is num1 less than or equal to? True/False.", result6)
+
+# 6.
+print("Is num1 less than 50 or num2 6 times of 294? True/False.", num1 < 50 or 294 * 6 == num2) 
