@@ -1,0 +1,34 @@
+#Answer 1,
+num1=298
+num2=1234
+
+
+#Answer 2,
+print(num1,"+",num2 ,"is",num1 + num2)
+print(num1,"-",num2 ,"is",num1 - num2)
+print(num1,"*",num2 ,"is",num1 * num2)
+print(num1,"/",num2 ,"is",num1 / num2)
+print(num1,"%",num2,"is",num1 % num2)
+
+#Answer 3,
+print("The sum is",num1 + num2)
+print("The difference is",num1 - num2)
+print("The product is",num1 * num2)
+print("The quotient is",num1 / num2)
+print("The remainder is",num1 % num2)
+
+#Answer 4,
+print(num1 == num2)
+print(num1 != num2)
+print(num1 > num2)
+print(num1 < num2)
+print(num1 >= num2)
+print(num1 <= num2)
+
+#Answer 5,
+print("Is num1 equal to num2?",num1 == num2)
+print("Is num1 not equal to num2?",num1 != num2)
+print("Is num1 bigger than num2?",num1 > num2)
+print("Is num1 smaller than num2?",num1 < num2)
+print("Is num1 bigger or equal to num2?",num1 >= num2)
+print("Is num1 smaller or equal to num2?",num1 <= num2)
