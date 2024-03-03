@@ -1,0 +1,64 @@
+1.
+num = int(input("Write a number:"))
+if num > 0:
+  print("Positive")
+if num < 0:
+  print("Negative")
+if num == 0:
+  print("Zero")
+
+2.
+num = int(input("Write a number:"))
+if num > 0:
+  print("Positive")
+else:
+  num <= 0
+  print("Not Positive")
+if num < 0:
+  print("Negative")
+if num == 0:
+  print("Zero")
+
+3.
+num = int(input("Write a number:"))
+if num > 0:
+  print("Positive")
+else:
+  num <= 0
+  print("Not Positive")
+if num < 0:
+  print("Negative")
+if num == 0:
+  print("Zero")
+elif num == 0:
+  print("Equal to zero.")
+
+4.
+age = int(input("What is your age:"))
+if age < 12 and age > 0:
+  print("0-12")
+if age < 19 and age > 13:
+  print("13-19")
+if age < 59 and age > 20:
+  print("20-59")
+if age >= 60:
+  print("60+")
+
+5.
+age = int(input("What is your age:"))
+if age < 12 and age > 0:
+  print("0-12")
+if age < 19 and age > 13:
+  print("13-19")
+if age < 59 and age > 20:
+  print("20-59")
+if age >= 60:
+  print("60+")
+if age >= 18:
+  print("WOW, you can vote!")
+
+6.
+# The "if" statements purpose is to do a certain act under a specific condition made by the coder.
+# The "elif" statements purpose is to check another condition if a first condition is not valid.
+# The "else" statements purpose is to decide on what action to make next if a first condition is not valid.
+# The decision making process of conditional statements is important  to use during coding with python because it helps the user find valid and invalid conditions.
