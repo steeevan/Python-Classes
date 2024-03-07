@@ -17,7 +17,7 @@ elif age2> 0 and age2<=12:
   print("You are a child")
 elif age2 >= 13 and age<20:
   if age2 >= 18 and age2 <= 20:
-    print ("SKILL voting" Unlocked. You are availible to vote now.")
+    print ("SKILL voting Unlocked. You are availible to vote now.")
   print ("you are an teenager")
 elif age2>=20 and age2 <60:
   print("your are an adult")
