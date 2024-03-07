@@ -17,10 +17,10 @@ elif age2> 0 and age2<=12:
   print("You are a child")
 elif age2 >= 13 and age<20:
   if age2 >= 18 and age2 <= 20:
-    print ("cmon, do more exercise")
+    print ("SKILL voting" Unlocked")
   print ("you are an teenager")
 elif age2>=20 and age2 <60:
-  print("your an adult")
+  print("your are an adult")
 else:
   print ("You are an senior")
 #The purpose of codition statement is to check and give ou multiple answer.
