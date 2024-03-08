@@ -11,7 +11,7 @@ else:
   
 age2= int(input("how old are you, making sure."))
 
-if age2<0:
+if age2<=0:
   print ("Error")
 elif age2> 0 and age2<=12:
   print("You are a child")
@@ -21,7 +21,9 @@ elif age2 >= 13 and age<20:
   print ("you are an teenager")
 elif age2>=20 and age2 <60:
   print("your are an adult")
+elif age2>= 60 and age2 <= 120:
+  print ("you are an senoir")
 else:
-  print ("You are an senior")
+  print("you are too old")
 #The purpose of codition statement is to check and give ou multiple answer.
 #It can determine write or wrong and will be used to more complax python script.
