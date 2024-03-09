@@ -1,0 +1,63 @@
+# ==============================================
+# Part 1: Theory Questions
+# ==============================================
+
+1.
+# - List: A list is a data type in Python consisting of a mutable, or changeable, sequence of elements
+# - Tuple: A tuple is a data type in Python consisting of a immutable, or unchangeable, sequence of elements
+# - Indexing: Indexing is the process of choosing a specific element out of a list or tuple using it's index, or position
+# - Mutability: Mutability in Python means that a sequence of elements can be changed and modified after creation
+# - Immutability: Immutability in Python means that a sequence of elements cannot be changed or modified after creation
+
+2.
+# Lists and tuples are different data types because lists are mutable and tuples are immutable. That means that creators are able to change lists after creation but are not able to change tuples after creating them. Another reason why lists and tuples are different is because lists use [] but tuples use ()
+# Somebody may use lists when creating user names, or online shopping lists. Somebody might use tuples when making important data like passwords or important information.
+
+3.
+# Indexing in lists work by looking at the space the character is in. The first space is named "0" and the rest is how many spaces it is to the right of "0".
+# Example 1 (list):
+colors = ["red", "orange", "yellow", "green", "blue"]
+print(colors[3])
+# Example 2 (tuple):
+states = ("California", "Colorado", "Hawaii", "Massachusetts", "Nevada")
+print(states[4])
+
+# ==============================================
+# Part 2: Coding Problems
+# ==============================================
+
+4.
+integers = ["1", "257", "234567765434567", "2", "91"]
+integers.append("56")
+integers.remove("1")
+integers[1] = "234567765434568"
+integers[3] = "3"
+print(integers)
+
+5.
+flavor = ("chocolate", "vanilla", "yellow", "red velvet", "strawberry")
+flavor[3] = "blueberry"
+toppings = ("sprinkles", "berries", "flowers", "chocolate", "whipped cream")
+cake = flavor + toppings
+print(flavor)
+print(toppings)
+print(cake)
+
+# **********************************************
+# List vs. Tuple
+# **********************************************
+
+6.
+#   Lists and tuples are two very different data types in coding. This is because there are different factors in creating a list than a tuples.
+# One main difference is that lists are mutable while tuples are immutable. This statement means that lists can be appended and have elements
+# removed and modified after creation. Tuples on the other hand mean that they cannot be appended, have any elements removed, or be modified 
+# after creation. An other, yet very small, difference between lists and tuples is that during coding, lists are outlined with a box [], but 
+# tuples are outlined with (). 
+#   Although it is already proven lists and tuples are two different data types, there are many similarities between them too. One of those
+# similiarities is that they are both data types that can be used to store a line of information and elements. This is because a list and 
+# tuple both conisist of a sequence of elements that can be individually aquired because of their indexing. Another similaritie between lists 
+# and tuples is that they both use indexing to find out what place certain elements are in. That function helps identify what the coder means
+# when they say to print a certain space.
+#   A situation where tuples would be prefered over lists is if the user needs a why to make unchangeable information like passwords,
+# important information, or the secret krabby patty recipe. On the other hand, one would probably choose to use a list for something like a 
+# temporary online user name, or an online shopping list, or maybe a draft for a list of supplies.
