@@ -1,0 +1,30 @@
+#List is a data type that is mutable
+#Tuble is a data type that inmutable
+#Index can select variable from list and tuple also store information of list
+#Mutable means can change
+#Inmutable means cannot change
+
+#List is mutable but tuple wasn't
+ 
+num1=[1,2,3,4,5]
+num2=(6,7,8,9,10)
+
+#Index select data
+print(num1[0])
+print(num2[0])
+
+num1.append(1)
+num1.remove(1)
+num1[0]=(11)
+print(num1)
+
+tuple=("1","2","3","4","5")
+print(tuple[0])
+#tuple[0]=1 :I tried
+
+mix=tuple+num2
+print(mix)
+# The different between tuple and list is that can be change but one cannot.
+#The list is mutable which means it be use on character health stat andd more
+#Tuple cannot change which means it can use to create play button or somthing you don't want it to change
+#The both store data , can select data . It works almost the same but just that one part.
