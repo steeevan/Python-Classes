@@ -1,0 +1,62 @@
+1.
+name = str(input("Enter your first and last name:"))
+
+2.
+name = str(input("Enter your first and last name:"))
+start = "Hello, my name is "
+namestart = start + name
+print(namestart)
+
+3.
+name = str(input("Enter your first and last name:"))
+start = "Hello, my name is "
+namestart = start + name
+print(namestart)
+cut_name = name.split()
+first = cut_name[0]
+last = cut_name[1]
+print(first)
+print(last)
+
+4.
+sentance = input("Enter what your favorite color is in a sentance:")
+
+5.
+sentance = input("Enter what your favorite color is in a sentance:")
+count = len(sentance)
+print(count)
+
+6.
+sentance = input("Enter a simple sentance introducing your favorite color:")
+upcase = sentance.upper()
+lowcase = sentance.lower()
+capital = sentance.capitalize()
+occur = sentance.count("y")
+occur2 = sentance.count("Y")
+question = sentance.count("?")
+if question == True:
+  print("question")
+print(upcase)
+print(lowcase)
+print(capital)
+print(occur)
+print(occur2)
+
+7.
+from datetime import datetime
+current = datetime.now()
+date = current.strftime("%m:%d:%Y")
+print("The current date is,", date)
+
+8.
+from datetime import datetime
+current = datetime.now()
+date = current.strftime("%m:%d:%Y")
+month = current.strftime("%m")
+day = current.strftime("%d")
+year = current.strftime("%Y")
+print("The date is", date, ", also known as the", day, "day in the", month, "of the year", year)
+
+9.
+result = format(3 * 5)
+print("The reult of 5 multiplied by 3 is", result)
