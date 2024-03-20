@@ -1,0 +1,18 @@
+#1
+name="Logan Chow"
+
+#2
+print("Hello, my name is",name,".")
+
+#3
+#I do not know
+
+#4
+nn=str(input("Enter any sentence"))
+
+#5
+o=len(nn)
+print(o)
+
+#6
+#I do not know
