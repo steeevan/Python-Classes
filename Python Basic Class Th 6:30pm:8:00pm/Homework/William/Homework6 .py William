@@ -1,0 +1,25 @@
+#1
+Name= "William Zhu"
+#2
+Name2= "Hello my name is" + Name
+#3
+remove=(Name[8:11])
+print (remove)
+#4
+sent= str(input("write a sentence"))
+#5
+lenght=len(sent)
+print (lenght)
+#6
+lower=sent.lower
+upper=sent.upper
+cap= sent.capitalize()
+count= sent.count("x")
+question_mark= sent.count("?")
+print(lower)
+print(upper)
+print(cap)
+print(count)
+print(question_mark)
+#7-9 I dont know. I went on google for six. No lesson 7 
+
