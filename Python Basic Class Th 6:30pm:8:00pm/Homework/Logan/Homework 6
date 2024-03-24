@@ -15,4 +15,22 @@ o=len(nn)
 print(o)
 
 #6
-#I do not know
+text = "Python Programming?"
+
+question = "?"
+
+length = len(text)
+
+lower_text = text.lower()
+
+upper_text = text.upper()
+
+capitalize=text.capitalize()
+
+if question in text:
+  print("There is a question mark")
+else:
+  print("There is not a question mark")
+print(upper_text)
+print(lower_text)
+print(capitalize)
