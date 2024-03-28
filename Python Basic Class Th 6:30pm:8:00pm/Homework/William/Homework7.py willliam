@@ -1,0 +1,37 @@
+#1
+num1=[1,2,3,4,5]
+for number in num1:
+  print("the square of",number,"is", number*number)
+#2
+num2= number*number
+num3=num2+num2
+print ( num3)
+#3
+x=0
+z=1
+y=x+z
+while x+z<=34:
+  0==0
+  0==0==0
+  print (x+z)
+  y += y
+  z += y
+  x += y
+# I don't know
+#4
+n= int(input("enter a number"))
+while n<=0:
+  if n< 0:
+    continue
+  else:
+    break
+#5
+word=["hi","ho","ha","he","hu"]
+for w in word:
+  print (w.upper())
+#6
+# I don't get the question
+  
+      
+  
+    
