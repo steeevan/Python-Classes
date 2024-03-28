@@ -5,3 +5,48 @@ for i in range(1,6):
   #Q,2
 sum = 1+4+9+16+25
 print("The sum of all squares is",sum)
+
+  #Q,3
+n = 10
+fir, sec = 0, 1
+print(fir, sec, end=' ')
+i = 0
+while (i < n-2):
+    thir = fir + sec
+    print(thir, end=' ')
+    fir = sec
+    sec = thir
+    i = i + 1
+
+  #Q4
+while True:
+    n = int(input("Enter any number."))
+    if n % 2 == 0:
+      print("Your number is even")
+      break
+
+  #Q5
+words = "me,was,see,fun,on"
+upper_words = words.upper()
+for word in words:
+  print(upper_words)
+  break
+
+  #Q,6
+n = int(input("Enter any number: "))
+f = 1
+while n >= 1:
+    f *= n
+    n -= 1
+print("Factorial is", f)
+
+
+
+
+
+
+
+
+
+
+
