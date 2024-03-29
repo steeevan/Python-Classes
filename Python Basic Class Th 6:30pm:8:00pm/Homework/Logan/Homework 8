@@ -1,0 +1,154 @@
+#1
+infor = {
+"name":"Logan",
+"age":10,
+"city":"Eastvale",
+"occupation":"read"}
+
+#2
+#I don't know the answer for number 2
+
+#3
+infor["city"] = "Walnut"
+print(infor)
+
+#4
+inv = {
+"Item 1":"pizza, 3",
+"Item 2":"egg, 5",
+"Item 3":"spoon, 23",
+"Item 4":"banana, 2",}
+print(inv)
+
+#5
+#I don't know the answer for number 5
+
+#6
+set1 = {43853948,12,13,14,15,16}
+set2 = {1,2,3,4,5,6,7,8,9,10,11,12,12}
+
+#7
+op = set1.union(set2)
+po = set1.intersection(set2)
+pop = set1.difference(set2)
+print(op)
+print(po)
+print(pop)
+
+#8
+#I don't know
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
