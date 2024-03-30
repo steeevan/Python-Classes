@@ -1,0 +1,72 @@
+def square_number(input1):
+    
+    results = input1**2
+    return results
+print(square_number(3))
+
+numbers = [1,2,3,4,5,6,7,8,9,10]
+
+def calculate_average(num_list):
+    return sum(num_list) / len(num_list)
+
+print(f"Average is: ",calculate_average(numbers))
+
+def print_greeting(greet):
+    print(f"Hello", greet)
+print_greeting("John Doe")
+#------------------------------------------
+def division(num1,num2):
+    try: 
+        result= num1/num2
+        return result
+    except ZeroDivisionError:
+        print("ERR")
+divide = division(10,2)
+print(divide)
+
+def age_input(age):
+    try:
+        return int(age)
+    except ValueError:
+        print("ERR")
+print(age_input(1111))
+print(age_input("Hello")) # Catching error example
+#------------------------------------------
+def calculate_discount(orginal_price,discount):
+    savings =   orginal_price * discount
+    result = orginal_price - savings
+    return int(result)
+print("discount is",calculate_discount(90,0.2))
+
+def convert_temperature(celcius):
+    result = 9/5 * celcius + 32
+    return int(result)
+
+print(convert_temperature(35),"F")
+#------------------------------------------
+def triange_type_checker(side1,side2,side3):
+    if side1 == side2 == side3:
+        return "Equilateral"
+    elif side1 != side2 != side3:
+        return "Scalene" 
+    else:
+        return "Isosceles"
+
+def main():
+    try:
+        side1 = float(input("Enter a number for side 1: "))
+        side2 = float(input("Enter a number for side 2: "))
+        side3 = float(input("Enter a number for side 3: "))
+        if side1<= 0 or side2 <= 0 or side3 <=0:
+            print("Numbers cannot be 0")
+        else:
+            print("triangle type: ",triange_type_checker(side1,side2,side3))
+    except ValueError:
+        print("Error: Please enter valid numeric values for the side lengths.")
+if __name__ == "__main__":
+    main()
+
+    
+
+    
+
