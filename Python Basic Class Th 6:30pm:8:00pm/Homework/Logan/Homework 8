@@ -36,23 +36,12 @@ print(po)
 print(pop)
 
 #8
-diction = [{1}, {2}, {3}, {5}, {6},
-             {2}, {3}, {5}]
+num = [11, 27 ,26 ,1111 ,123456 ,11 ,22 ,467 ,123456 ,10 ,10 ,10 ,10 ,10 ,10 ,10 ,10 ,10 ,10 ,10 ,10 ,10,10 ,10] 
+mun = set(num)
 
-print ("Original : ", str(diction))
-oso = []
-for i in range(len(diction)):
-    if diction[i] not in diction[i + 1:]:
-        oso.append(diction[i])
-
-print ( "Result: ", str(oso))
-
-
-
-
-
-
-
+print("Origanal :",num)
+print("==========================================================")
+print("Result :", mun)
 
 
 
