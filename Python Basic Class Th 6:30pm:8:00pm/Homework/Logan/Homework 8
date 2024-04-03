@@ -36,7 +36,121 @@ print(po)
 print(pop)
 
 #8
-#IDK
+test_list = [{1}, {2}, {3},
+             {2}, {3}]
+
+print ("Original : " + str(test_list))
+
+res_list = []
+for i in range(len(test_list)):
+    if test_list[i] not in test_list[i + 1:]:
+        res_list.append(test_list[i])
+
+print ( "Result: " + str(res_list))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
