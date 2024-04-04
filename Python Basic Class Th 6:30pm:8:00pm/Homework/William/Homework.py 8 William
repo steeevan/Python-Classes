@@ -1,0 +1,35 @@
+
+info={
+"age":23,
+"name":"Bob",
+"city":"Chino Hills",
+"occupation":"teacher"
+}
+print(info)
+print(info["age"])
+print(info["name"])
+print(info["city"])
+print(info["occupation"])
+info["age"]=21
+print(info["age"])
+
+inventory={"item1":"slime ball",
+"item2":"wolf's claw",
+"item3":"sword"}
+
+inventory["item4"]="shield"
+del inventory["item1"]
+inventory["item2"]="armor"
+print(inventory["item2"])
+print(inventory)
+
+set1={1,2,3,4,5}
+set2={2,3,4,5,6,7,8,9}
+uni=set1.union(set2)
+diff=set1.difference(set2)
+inter=set.intersection(set2)
+print(uni,diff,inter,set1,set2)
+nums={1,2,3,4,5,6,7}
+nums2={2,3,4,5,6,7,8}
+uni2=nums.union(nums2)
+print(nums,nums2,uni2)
