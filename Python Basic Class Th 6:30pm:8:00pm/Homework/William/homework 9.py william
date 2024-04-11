@@ -1,0 +1,66 @@
+
+def addition(n):
+    return n+n
+numbers = (1, 2, 3, 4)
+result = map(addition, numbers)
+print(list(result))
+
+for n in numbers:
+  if n % 2 ==0:
+    print(n)
+#I dont't know num 2
+(list(numbers)).sort(reverse=True)
+print(numbers)
+print(set(numbers))
+
+tub=(255,0,0)
+n=len(tub)
+print(n)
+add= tub[0]+tub[1]+tub[2]
+div=add/3
+print(add,div)
+
+#i don't understand hexadecimal
+
+dit={"manga":"2012291"}
+dit["chino"]=201229122
+del dit["manga"]
+print(dit)
+
+if dit["chino"] > 1000000:
+  print("save")
+else:
+  del dit[chino]
+
+set1={1,2,3,4,5,3,2,2,44,335,22,5,542,22,5,1342,2,}
+set2={1,2,3,32,34,21,4,3241,43,53265,342342,224,221,22,3322,121}
+
+
+n=set1.issubset(set2)
+w=set1.union(set2)
+d=set1.intersection(set2)
+a=set1.difference(set2)
+print(n)
+print(w)
+print(d)
+print(a)
+
+
+li=['p','d','h','w']
+li2=['p','h','a']
+
+com=(set(li)).union((set(li2)))
+print(com)
+
+
+
+
+
+
+
+
+
+
+
+
+
