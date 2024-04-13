@@ -1,0 +1,62 @@
+1.
+def greet_user(name):
+  print(f"Hello {name}, welcome to class!")
+greet_user(input("Enter your full name:"))
+
+2.
+def square_number(num):
+  print(num * num)
+square_number(int(input("Enter a number:")))
+
+3.
+def calculate_area(length=1, width=1):
+  print(length * width)
+calculate_area(4,9)
+
+4.
+def calculate_area(length=1, width=1):
+  print(length * width)
+calculate_area(5,3)
+
+5.
+def divide_numbers(num1, num2):
+  print(num1 / num2)
+  print(num1 % num2)
+num1 = int(input("Enter a number:"))
+num2 = int(input("Enter another number:"))
+divide_numbers(num1, num2)
+
+6.
+def divide_numbers(num1, num2):
+  print(num1 / num2)
+  print(num1 % num2)
+divide_numbers(5,4)
+
+7.
+def calculate_sum(num1, num2):
+  print(num1 + num2)
+num1 = int(input("Enter a number:"))
+num2 = int(input("Enter another number:"))
+calculate_sum(num1, num2)
+
+8.
+def calculate_sum(num1, num2, num3):
+  print(num1 + num2 + num3)
+calculate_sum(5,10,15)
+
+9.
+def factorial(num):
+  if num == 0:
+    return 1
+  else:
+    return num * factorial(num-1)
+num = int(input("Enter a positive integer:"))
+print(factorial(num))
+
+10.
+def factorial(num):
+  if num == 0:
+    return 1
+  else:
+    return num * factorial(num-1)
+print(factorial(10))
