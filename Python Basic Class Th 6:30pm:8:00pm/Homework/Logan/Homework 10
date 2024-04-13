@@ -1,0 +1,26 @@
+#Q1,
+def greet_user(username):
+  print(f"Hello, {username}!")
+  
+greet_user("LOGAN PUAL")
+
+print("=======================================")
+
+#Q2,
+def answer(squared_number):
+  if squared_number == 1:
+    return 1
+  else:
+    squared_number(4)
+    squared_number ** 2
+    print(f"{squared_number}")
+    
+print("======================================")
+
+#Q3,
+def me(width, length):
+  return width * length
+area = me(12,14275648730)
+print(area)
+    
+
