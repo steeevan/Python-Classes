@@ -23,4 +23,11 @@ def me(width, length):
 area = me(12,14275648730)
 print(area)
     
+print("====================================")
 
+#Q4,
+def me(width1, width2, width3, length1, length2, length3, length4, length5):
+  return width1 * width2 * width3 * length1 * length2 * length3 * length4 * length5 
+area = me(12, 14275648730, 2231433, 345, 32545, 2545, 245, 12753628973456283479652897435648927356987346587923465928734659287362937845629837456923487562983475692837456928374652354)
+print(area)
+    
