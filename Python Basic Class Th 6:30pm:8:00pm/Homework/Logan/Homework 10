@@ -38,8 +38,60 @@ def divided_numbers(num1, num2):
   return num1 / num2
   
 divided = divided_numbers(12, 3)
+
+rem = 12 % 3
+
+print("==================================")
+
+#Q6
+def divided_numbers(num1, num2):
+  return num1 / num2
+  
+divided = divided_numbers(12, 3)
 print(divided)
 
 rem = 12 % 3
 print("The remainder is",rem)
+
+print("================================")
+
+#Q7
+def cal_sum(num1, num2):
+  return num1 + num2
+  
+summ = cal_sum(21134134134, 34245)
+print(summ)
+
+print("===============================")
+
+#Q8
+def cal_sum(num1, num2, num3):
+  return num1 + num2 + num3
+  
+summ = cal_sum(1, 1, 999999999999999999999999999999998)
+print(summ)
+
+print("===============================")
+
+#Q9
+def factorial(n):
+  if n == 0:
+    return 1
+  else:
+    return n * factorial(n-1)
     
+fact = factorial(99)
+print(fact)
+
+print("=============================")
+
+#Q10
+def factorial(n):
+  if n == 0:
+    return 1
+  else:
+    return n * factorial(n-1)
+    
+fact = factorial(0)
+print(fact)
+
