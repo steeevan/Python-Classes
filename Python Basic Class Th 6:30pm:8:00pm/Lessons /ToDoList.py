@@ -18,3 +18,11 @@ def remove_task(tasks):
   else:
     print("Invalid Position Entered!")
     
+def view_task(tasks):
+  if tasks:
+    print("Tasks:")
+    for index, task in enumerate(tasks, start=1):
+      print(f"{index}. {task}")
+    
+  else:
+    print("No tasks to display!")
