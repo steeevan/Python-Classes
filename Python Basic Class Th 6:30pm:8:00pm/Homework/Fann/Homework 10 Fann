@@ -33,16 +33,16 @@ def divide_numbers(num1, num2):
 divide_numbers(5,4)
 
 7.
-def calculate_sum(num1, num2):
-  print(num1 + num2)
-num1 = int(input("Enter a number:"))
-num2 = int(input("Enter another number:"))
-calculate_sum(num1, num2)
+def calculate_sum(*args):
+  return sum(args)
+result = calculate_sum(15, 6, 7, 42, 90)
+print(result)
 
 8.
-def calculate_sum(num1, num2, num3):
-  print(num1 + num2 + num3)
-calculate_sum(5,10,15)
+def calculate_sum(*args):
+  return sum(args)
+result = calculate_sum(5, 10, 15)
+print(result)
 
 9.
 def factorial(num):
