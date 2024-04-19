@@ -31,7 +31,9 @@ print(colorlength)
 print(coloraverage)
 
 4.
-
+color = (74, 65, 42)
+color = ("4A412A")
+print(color)
 
 5.
 num = 1000000
