@@ -1,0 +1,138 @@
+Answer1,
+
+print("These are the numbers, 123 and 123")
+print("========================================")
+print("========================================")
+
+def apply_(num1, num2):
+  return num1 * num2
+  
+product = apply_(123, 123)
+print("The product is",product)
+
+print("===================================================")
+
+
+
+
+
+
+Answer2,
+
+print("These are the numbers, 123 and 123")
+print("========================================")
+print("========================================")
+
+def apply_(num1, num2):
+  return num1 * num2
+  
+product = apply_(123, 123)
+print("The product is",product)
+
+print("===================================================")
+
+def apply_(num1, num2):
+  return num1 - num2
+  
+diff = apply_(123, 123)
+print("The difference is",diff)
+
+print("==================================================")
+
+def apply_(num1, num2):
+  return num1 + num2
+  
+summ = apply_(123, 123)
+print("The sum is",summ)
+
+print("==================================================")
+
+
+
+
+
+
+
+Answer3,
+x = [123, 234, 3425, 567, 56, 54, 45676, 8798, 234]
+
+even = lambda x: x % 2 == 0
+print(even)
+
+
+
+
+Answer4, 
+def u(m, e):
+  return m + e
+  print(f"{m, e}")
+
+e = lambda x, y: x + y
+m = [234, 2345, 25, 2345]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
