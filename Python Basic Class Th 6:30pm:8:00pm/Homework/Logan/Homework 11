@@ -74,15 +74,35 @@ m = [234, 2345, 25, 2345]
 
 
 
+Answer5,
+def power(base, exponent):
+  return base ** exponent
+  
+powwer = power(1111323, 99)
+print(powwer)
 
 
 
 
 
+Answer6,
+def power(base, exponent):
+  return base ** exponent
+  
+  
+powwer = power(2, 5)
+print(powwer)
 
 
 
 
+Answer7,
+IDK
+
+
+
+Answer8,
+IDk
 
 
 
