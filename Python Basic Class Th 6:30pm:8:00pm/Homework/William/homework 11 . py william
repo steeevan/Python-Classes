@@ -1,0 +1,45 @@
+
+def apply_oper(x,y):
+  vi= int(input("pick one"))
+  total=0
+  if vi==1:
+    total= x*y
+  elif vi==2:
+    total= x+y
+  elif vi== 3:
+    total=x-y
+  else:
+    print("no option for that")
+    print("system crash")
+  return print(total)
+
+num= int(input("pick number"))
+num2= int(input("another one"))
+print("1.Multiplcation")
+print("2.addition")
+print("3.subtraction")
+apply_oper(num,num2)
+#don't know 3 even searched
+lis=[1,2,3,4,5,6,7,8]
+evem= lambda x: x%2
+print(evem)
+for ven in lis:
+  evem(int(ven))
+if evem==0:
+  print_code(evem)
+def pro_num(even):
+  total=evem % 2
+  LI=[]
+  LI.append(total)
+  print(LI)
+#don't know 4
+
+def power(b,e):
+  result=b**e
+  print (result)
+power(2,5)
+
+# I don't what decorate function
+
+    
+  
