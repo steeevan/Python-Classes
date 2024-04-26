@@ -1,0 +1,116 @@
+1.
+def apply_operation(num1, num2, operation):
+    return operation(num1, num2)
+def add(x, y):
+    return x + y
+result = apply_operation(5,3,add)
+print(result)
+
+2. 
+def apply_operation(num1, num2, operation):
+    return operation(num1, num2)
+def add(x, y):
+    return x + y
+def subtract(x,y):
+    return x - y
+def multiply(x,y):
+    return x * y
+def divide(x,y):
+    if y != 0:
+        return x / y
+result = apply_operation(5,3,add)
+print(result)
+resul = apply_operation(5,3,sub)
+print(resul)
+resu = apply_operation(5,3,mult)
+print(resu)
+res = apply_operation(5,3,divis)
+print(res)
+
+3.
+myList = [0,1,2,3,4,5,6,7,8,9,10]
+result = lambda i: i % 2 == 0
+evenList = list(filter(result, myList))
+print(evenList)
+
+4.
+myList = [0,1,2,3,4,5,6,7,8,9,10]
+result = lambda i: i + 1,
+newList = list(filter(result, myList))
+print(newList)
+
+5.
+def power(base, exponent):
+  result = 1
+  while exponent > 0:
+    result *= base
+    exponent-=1
+  return result
+print(power(8,4))
+
+6.
+def power(base, exponent):
+  result = 1
+  while exponent > 0:
+    result *= base
+    exponent-=1
+  return result
+print(power(2,5))
+
+7.
+import functools
+
+def logger(func):
+    @functools.wraps(func)
+    def wrapper(*args, **kwargs):
+        print(f"FUNCTION: {func.__name__}")
+        print("ARGUMENTS:")
+        for arg in args:
+            print(f"  - {arg}")
+        for key, value in kwargs.items():
+            print(f"  - {key}: {value}")
+        return func(*args, **kwargs)
+    return wrapper
+
+@logger
+def apply_operation(num1, num2, operation):
+    return operation(num1, num2)
+def add(x, y):
+    return x + y
+result = apply_operation(5,3,add)
+print(result)
+
+8.
+import functools
+def logger(func):
+    @functools.wraps(func)
+    def wrapper(*args, **kwargs):
+        print(f"FUNCTION: {func.__name__}")
+        print("ARGUMENTS:")
+        for arg in args:
+            print(f"  - {arg}")
+        for key, value in kwargs.items():
+            print(f"  - {key}: {value}")
+        return func(*args, **kwargs)
+    return wrapper
+
+@logger
+def apply_operation(num1, num2, operation):
+    return operation(num1, num2)
+def add(x, y):
+    return x + y
+def sub(x,y):
+    return x - y
+def mult(x,y):
+    return x * y
+def divis(x,y):
+    if y != 0:
+        return x / y
+result = apply_operation(5,3,add)
+print(result)
+resul = apply_operation(5,3,sub)
+print(resul)
+resu = apply_operation(5,3,mult)
+print(resu)
+res = apply_operation(5,3,divis)
+print(res)
