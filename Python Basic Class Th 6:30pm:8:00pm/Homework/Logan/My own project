@@ -1,0 +1,12 @@
+z = int(input("Enter a number PLS: "))
+N = int(input("Enter a number PLS: "))
+
+total = 0
+
+while z <= N:
+    total += z
+    z += 1
+
+print("Sum:",total)
+  
+  
