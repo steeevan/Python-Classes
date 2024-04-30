@@ -1,3 +1,5 @@
+print("It adds from Z all the way up to N")
+
 z = int(input("Enter a number PLS: "))
 N = int(input("Enter a number PLS: "))
 
