@@ -72,7 +72,9 @@ myTurtle.clear()
 myTurtle.speed(0)
 # set the initial value
 radius = 5
-num_circles = 100
+
+#number of circles
+num_circles = 50
 angle = 360 / num_circles
 
 for i in range(num_circles):
@@ -86,6 +88,23 @@ for i in range(num_circles):
   
   myTurtle.right(angle)
   
+  
+  
+myTurtle.clear()
+
+radius = 10
+angle = 90
+# Draw a colorful spiral
+for i in range(100):
+    # Generate a random color
+    color = (random.random(), random.random(), random.random())
+    # Set the pen color
+    myTurtle.pencolor(color)
+    # Draw a circle with the current radius
+    myTurtle.circle(radius)
+    # Increase the radius and decrease the angle
+    radius += 5
+    angle -= 1
   
   
 
@@ -129,7 +148,21 @@ screen.mainloop()
 
 
 
+# ===============================================
+# 7. Conclusion
+# ===============================================
 
+# In this lesson, you've learned about the Turtle module for drawing graphics in Python and the Random module for generating random data. Turtle graphics allow you to create interactive drawings and patterns, while the Random module is useful for various tasks like data generation and shuffling.
+
+# Continue exploring these modules to enhance your creativity and data manipulation skills in Python.
+
+# ===============================================
+# Vocabulary Words and Definitions
+# ===============================================
+
+# - Turtle Module: A Python module that provides a simple way to create drawings and graphics.
+# - Random Module: A Python module that allows you to generate random data, shuffle sequences, and perform other random-related tasks.
+# - Shuffle: To randomize the order of elements in a sequence.
 
 
 
