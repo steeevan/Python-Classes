@@ -1,0 +1,166 @@
+#1
+import turtle
+import random
+myt=turtle.Turtle()
+sc= turtle.Screen()
+sc.setup(width =1000, height =800)
+#2
+#trial 1
+for i in range(4):
+  myt.forward(100)
+  myt.right(90)
+#trial 2
+myt.circle(50)
+#trial 3
+myt.forward(100)
+myt.right(120)
+myt.forward(100)
+myt.right(120)
+myt.forward(100)
+myt.right(120)
+#3
+myt.clear()
+myt.width(1)
+angle= 144
+myt.speed(1)
+colors=["red","yellow","blue","green","orange"]
+for i in range(5):
+  myt.color(random.choice(colors))
+  myt.forward(100)
+  myt.right(angle)
+#Exercize 1
+myt.clear()
+size = 5
+time=int(input("how many circle"))
+for i in range(time):
+  myt.color(random.choice(colors))
+  myt.circle(size)
+  myt.penup()
+  myt.goto(0,0)
+  myt.pendown()
+  size +=2
+
+#exercize 2
+def code(a,b,c,d):
+  print(a,b,c,d)
+
+num1=random.randint(0,9)
+num2=random.randint(0,9)
+num3=random.randint(0,9)
+num4=random.randint(0,9)
+
+print("The 4 digit code")
+code(num1,num2,num3,num4)
+
+#Challenge 1
+myt.speed(0)
+myt.clear()
+myt.color(colors[2])
+s=10
+for i in range(6):
+  myt.goto(0,0)
+  myt.pendown()
+  myt.circle(s)
+  myt.penup()
+  s += 10
+s=10
+for i in range(6):
+  myt.goto(100,-100)
+  myt.pendown()
+  myt.circle(s)
+  myt.penup()
+  s += 10
+s=10
+for i in range(6):
+  myt.goto(200,-200)
+  myt.pendown()
+  myt.circle(s)
+  myt.penup()
+  s += 10
+s=10
+for i in range(6):
+  myt.goto(100,-200)
+  myt.pendown()
+  myt.circle(s)
+  myt.penup()
+  s += 10
+s=10
+for i in range(6):
+  myt.goto(0,-200)
+  myt.pendown()
+  myt.circle(s)
+  myt.penup()
+  s += 10
+s=10
+for i in range(6):
+  myt.goto(0,-100)
+  myt.pendown()
+  myt.circle(s)
+  myt.penup()
+  s += 10
+s=10
+for i in range(6):
+  myt.goto(100,0)
+  myt.pendown()
+  myt.circle(s)
+  myt.penup()
+  s += 10
+s=10
+for i in range(6):
+  myt.goto(200,0)
+  myt.pendown()
+  myt.circle(s)
+  myt.penup()
+  s += 10
+s=10
+for i in range(6):
+  myt.goto(200,-100)
+  myt.pendown()
+  myt.circle(s)
+  myt.penup()
+  s += 10
+#Challenge 2
+
+print("Official test")
+choice= random.randint(1,3)
+if choice==1:
+  print("what 1+1")
+  print("1.1")
+  print("2.2")
+  print("3.3")
+  vi=int(input("Pick one"))
+  if vi> 3:
+    print("no this choice")
+  elif vi==2:
+    print("correct")
+elif choice==2:
+  print("what 1*1")
+  print("1.1")
+  print("2.2")
+  print("3.3")
+  vi=int(input("Pick one"))
+  if vi> 3:
+    print("no this choice")
+  elif vi==1:
+    print("correct")
+elif choice==3:
+  print("what 1-1")
+  print("1.0")
+  print("2.2")
+  print("3.3")
+  vi=int(input("Pick one"))
+  if vi> 3:
+    print("no this choice")
+  elif vi==1:
+    print("correct")
+sc.mainloop()
+
+
+
+
+
+
+
+
+
+
