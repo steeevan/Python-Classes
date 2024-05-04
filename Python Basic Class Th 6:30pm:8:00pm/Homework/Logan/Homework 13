@@ -1,0 +1,68 @@
+#1
+#Already intsalled
+
+
+
+#2
+import turtle as tk
+
+screen = tk.Screen()
+
+myTurtle = tk.Turtle()
+
+screen.setup(width=800,height=600)
+
+myTurtle.shape("turtle")
+
+
+myTurtle.left(90)
+myTurtle.circle(50)
+
+
+
+#3
+import random
+import turtle as tk
+
+screen = tk.Screen()
+myTurtle = tk.Turtle()
+screen.setup(width=800,height=600)
+
+myTurtle.shape("turtle")
+
+myTurtle.forward(100)
+myTurtle.left(90)
+myTurtle.circle(50)
+
+for i in range(4):
+  myTurtle.forward(100)
+  myTurtle.right(90)
+  
+myTurtle.width(10)
+colors = ["red","green", "blue","orange","purple"]
+for i in range(5):
+  myTurtle.color(random.choice(colors))
+  myTurtle.forward(100)
+  myTurtle.right(144)
+
+
+myTurtle.clear()
+myTurtle.speed(0)
+radius = 5
+
+num_circles = 5000000000
+angle = 360 / num_circles
+
+for i in range(num_circles):
+  myTurtle.color(random.choice(colors))
+
+  myTurtle.circle(radius)
+  myTurtle.penup()
+  myTurtle.goto(0,0)
+  myTurtle.pendown()
+  radius += 10
+  
+  myTurtle.right(angle)
+  
+  
+screen.mainloop()
