@@ -1,0 +1,15 @@
+1.
+import datetime
+time = datetime.datetime.now()
+print(time)
+
+2.
+import random
+random = random.randint(1,10)
+print("Random number between 1-10: ", random)
+
+3.
+import math
+num = int(input("Enter a number: "))
+square_root = math.sqrt(num)
+print(square_root)
