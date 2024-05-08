@@ -1,0 +1,163 @@
+1.
+import turtle
+
+2.
+import random
+
+screen = turtle.Screen()
+biscuit = turtle.Turtle()
+screen.setup(width=800,height=600)
+biscuit.shape("turtle")
+biscuit.width(10)
+biscuit.speed(0)
+color_options = ["blue","teal","pink","magenta","black","red","yellow","green","orange","purple"]
+
+for i in range(6):
+  biscuit.color(random.choice(color_options))
+  biscuit.right(60)
+  biscuit.forward(60)
+  
+screen.mainloop()
+
+3.
+import turtle
+import random
+
+screen = turtle.Screen()
+biscuit = turtle.Turtle()
+screen.setup(width=800,height=600)
+biscuit.shape("turtle")
+biscuit.width(15)
+biscuit.speed(0)
+color_options = ["blue","teal","pink","magenta","black","red","yellow","green","orange","purple"]
+
+radius = 5
+num_circles = 100
+angle = 360 / num_circles
+
+for i in range(num_circles):
+  biscuit.color(random.choice(color_options))
+
+  biscuit.circle(radius)
+  biscuit.penup()
+  biscuit.goto(0,0)
+  biscuit.pendown()
+  radius += 10
+  
+  biscuit.right(angle)
+
+screen.mainloop()
+
+Exercise 1:
+import turtle
+import random
+
+screen = turtle.Screen()
+biscuit = turtle.Turtle()
+screen.setup(width=800,height=600)
+biscuit.shape("turtle")
+biscuit.width(15)
+biscuit.speed(0)
+color_options = ["blue","teal","pink","magenta","yellow","purple"]
+
+def draw_circles(radius, circles):
+    for _ in range(circles):
+        biscuit.color(random.choice(color_options))
+        biscuit.circle(radius)
+        biscuit.left(360 / circles)
+
+circles = 36
+for i in range(10):
+    draw_circles(100, circles)
+    biscuit.left(36)
+
+screen.mainloop()
+
+Exercise 2:
+import random
+import string
+
+def generate_password(length):
+    characters = string.ascii_letters + string.digits + string.punctuation
+    password = ''.join(random.choice(characters) for i in range(length))
+    return password
+
+length = 7
+print(generate_password(length))
+
+Exercise 3:
+import turtle
+import random
+
+screen = turtle.Screen()
+biscuit = turtle.Turtle()
+screen.setup(width=800,height=600)
+biscuit.shape("turtle")
+biscuit.width(15)
+biscuit.speed(0)
+color_options = ["blue","teal","pink","magenta","yellow","purple"]
+
+def square(length):
+    for i in range(4):
+        biscuit.forward(length)
+        biscuit.right(90)
+
+def triangle(length):
+    for i in range(3):
+        biscuit.forward(length)
+        biscuit.right(120)
+
+def hexagon(length):
+    for i in range(6):
+        biscuit.forward(length)
+        biscuit.right(60)
+
+pattern_size = 8
+for i in range(pattern_size):
+    biscuit.penup()
+    biscuit.goto(-50 * i, -50 * i)
+    biscuit.pendown()
+    for i in range(6):
+        biscuit.color(random.choice(color_options))
+        hexagon(30 + 10 * i)
+        biscuit.left(60)
+    for i in range(4):
+        biscuit.color(random.choice(color_options))
+        square(30 + 10 * i)
+        biscuit.left(90)
+    for i in range(3):
+        biscuit.color(random.choice(color_options))
+        triangle(30 + 10 * i)
+        biscuit.left(120)
+
+screen.mainloop()
+
+Exercise 4:
+import random
+
+questions = [
+    ("What is the capital of the United States?", ["A. Olympia", "B. Paris", "C. Washington D.C.", "D. Rome"], "C"),
+    ("Which planet is known as the Red Planet?", ["A. Mars", "B. Jupiter", "C. Venus", "D. Saturn"], "A"),
+    ("Who wrote 'Poor Richard's Almanack'?", ["A. George Washington", "B. Benjamin Franklin", "C. James Madison", "D. Thomas Jefferson"], "B"),
+    ("What is the chemical symbol for water?", ["A. Wa", "B. H2O", "C. O2", "D. H2cO"], "B"),
+    ("Which year did the Titanic sink?", ["A. 1899", "B. 1905", "C. 1921", "D. 1912"], "D")
+]
+
+random.shuffle(questions)
+
+def present_quiz(questions):
+    score = 0
+    for i, (question, choices, answer) in enumerate(questions, start=1):
+        print(f"{question}")
+        for choice in choices:
+            print(choice)
+        user_answer = input("Your answer is ").upper()
+        if user_answer == answer:
+            print("Correct!")
+            score += 1
+        else:
+            print(f"Wrong! The correct answer is {answer}.")
+        print()
+    print(f"You scored {score}/{len(questions)}.")
+
+present_quiz(questions)
