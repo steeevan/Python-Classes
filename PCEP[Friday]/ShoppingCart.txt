@@ -1,0 +1,60 @@
+Project: Shopping Cart Application
+Project Description
+This project will simulate a shopping cart where users can add items, remove items, view the cart, and check out. The items and their prices will be stored in a dictionary. The application will also generate a random discount for the total amount during checkout.
+
+Requirements for Each Function
+load_items()
+
+Purpose: To load available items and their prices into a dictionary.
+Parameters: None
+Returns: A dictionary containing items and their corresponding prices.
+add_to_cart(cart, items)
+
+Purpose: To add an item to the shopping cart.
+Parameters:
+cart (dict): The dictionary representing the shopping cart.
+items (dict): The dictionary containing available items and their prices.
+Returns: None
+remove_from_cart(cart)
+
+Purpose: To remove an item from the shopping cart.
+Parameters:
+cart (dict): The dictionary representing the shopping cart.
+Returns: None
+view_cart(cart)
+
+Purpose: To display the contents of the shopping cart.
+Parameters:
+cart (dict): The dictionary representing the shopping cart.
+Returns: None
+checkout(cart)
+
+Purpose: To calculate the total price, apply a random discount, and display the final amount.
+Parameters:
+cart (dict): The dictionary representing the shopping cart.
+Returns: None
+main()
+
+Purpose: To manage the flow of the shopping cart application.
+Parameters: None
+Returns: None
+
+
+
+
+
+------------------------------------------------------------------------
+Explanation for Students
+load_items(): This function initializes and returns a dictionary where keys are the item names and values are their prices.
+
+list_items(items): This function lists all available items and their prices, allowing users to see what they can add to their cart.
+
+add_to_cart(cart, items): This function prompts the user for an item and quantity, checks if the item is available, and adds the item to the cart or updates its quantity.
+
+remove_from_cart(cart): This function prompts the user for an item and quantity, checks if the item is in the cart, and removes the item or updates its quantity accordingly.
+
+view_cart(cart): This function displays the contents of the cart, showing each item and its quantity.
+
+checkout(cart, items): This function calculates the total price of the items in the cart, applies a random discount, and displays the final amount.
+
+main(): This function manages the flow of the shopping cart application, presenting a menu to the user and calling the appropriate functions based on the user's choice.
