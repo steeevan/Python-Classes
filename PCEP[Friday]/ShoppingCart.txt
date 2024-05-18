@@ -1,6 +1,7 @@
 Project: Shopping Cart Application
 Project Description
-This project will simulate a shopping cart where users can add items, remove items, view the cart, and check out. The items and their prices will be stored in a dictionary. The application will also generate a random discount for the total amount during checkout.
+This project will simulate a shopping cart where users can add items, remove items, view the cart, and check out.
+The items and their prices will be stored in a dictionary. The application will also generate a random discount for the total amount during checkout.
 
 Requirements for Each Function
 load_items()
@@ -8,6 +9,14 @@ load_items()
 Purpose: To load available items and their prices into a dictionary.
 Parameters: None
 Returns: A dictionary containing items and their corresponding prices.
+----------------------------------------------------
+list_items(items)
+
+Purpose: To list all available items and their prices.
+Parameters:
+items (dict): The dictionary containing available items and their prices.
+Returns: None
+--------------------------------------------------------------
 add_to_cart(cart, items)
 
 Purpose: To add an item to the shopping cart.
@@ -15,24 +24,28 @@ Parameters:
 cart (dict): The dictionary representing the shopping cart.
 items (dict): The dictionary containing available items and their prices.
 Returns: None
+--------------------------------------------------------
 remove_from_cart(cart)
 
 Purpose: To remove an item from the shopping cart.
 Parameters:
 cart (dict): The dictionary representing the shopping cart.
 Returns: None
+-------------------------------------------------------------
 view_cart(cart)
 
 Purpose: To display the contents of the shopping cart.
 Parameters:
 cart (dict): The dictionary representing the shopping cart.
 Returns: None
+-----------------------------------------------------------------
 checkout(cart)
 
 Purpose: To calculate the total price, apply a random discount, and display the final amount.
 Parameters:
 cart (dict): The dictionary representing the shopping cart.
 Returns: None
+------------------------------------------------
 main()
 
 Purpose: To manage the flow of the shopping cart application.
