@@ -1,0 +1,27 @@
+1.
+# Entry - a widget designed to be a single line text box used to accept an input from the user
+# Button - a widget designed for the user to interact with
+# Label - a widget that is used to implement display boxes where you can place text or images
+# OptionMenu - a widget deigned to be a drop-down menu that displays a list of options for the user to choose from
+# Grid layout - a widget designed to be split into a number of rows and columns, and each “cell” in the resulting table can hold a widget
+# Command parameter in Button widget - what command will be activated when the Button widget is pressed
+
+2.
+# I'll write the tkinter code here.
+import tkinter as tk
+
+window = tk.Tk()
+window.title("Colors")
+
+colorList = ("Yellow","Green","Cyan","Blue","White")
+color = StringVar(colorList)
+
+color_menu = tk.OptioMenu(color, colorList)
+color_menu.grid(row=0, column=1 ,padx=5, pady=5)
+
+def change_color():
+    bg.config(color)
+    
+color.trace(change_color())
+
+mainloop()
