@@ -303,4 +303,87 @@ Conclusion:
 - Encourage students to ask questions and explain their thought processes.
 
 ---
+### Solutions to Challenges: Loops and Functions in Python
 
+---
+
+Challenge 1: Count Vowels
+
+```python
+def count_vowels(input_string):
+    vowels = "aeiou"
+    count = 0
+    for char in input_string:
+        if char.lower() in vowels:
+            count += 1
+    return count
+
+# Example usage
+print(count_vowels("hello world"))  # Output: 3
+```
+
+---
+
+Challenge 2: Reverse a List
+
+```python
+def reverse_list(input_list):
+    reversed_list = []
+    for item in input_list:
+        reversed_list.insert(0, item)
+    return reversed_list
+
+# Example usage
+print(reverse_list([1, 2, 3, 4, 5]))  # Output: [5, 4, 3, 2, 1]
+```
+
+---
+
+Challenge 3: Sum of Digits
+
+```python
+def sum_of_digits(n):
+    total = 0
+    while n > 0:
+        digit = n % 10
+        total += digit
+        n = n // 10
+    return total
+
+# Example usage
+print(sum_of_digits(1234))  # Output: 10
+```
+
+---
+
+Challenge 4: Find the Maximum Value
+
+```python
+def find_max(numbers):
+    max_value = numbers[0]
+    for number in numbers:
+        if number > max_value:
+            max_value = number
+    return max_value
+
+# Example usage
+print(find_max([3, 5, 7, 2, 8]))  # Output: 8
+```
+
+---
+
+Challenge 5: Palindrome Checker
+
+```python
+def is_palindrome(s):
+    for i in range(len(s) // 2):
+        if s[i] != s[-(i + 1)]:
+            return False
+    return True
+
+# Example usage
+print(is_palindrome("radar"))  # Output: True
+print(is_palindrome("hello"))  # Output: False
+```
+
+---
