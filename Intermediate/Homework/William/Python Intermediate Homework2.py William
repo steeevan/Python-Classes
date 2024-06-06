@@ -1,0 +1,25 @@
+import tkinter as tk
+from tkinter import messagebox
+#1.List box alouds one or more selection of element to be selected  in the web. 
+#2.Stringvar is the label or entry box in python
+#3 message box is pop up as a wendow to show some message in some situation
+#4. pack are able to pack or organize your stringvar, button and entry box.
+#Geometry set up the size of your project
+sc= tk.TK()
+sc.Title("Text Update")
+sc.geometry("500x500")
+def ul():
+  Text= entry.get()
+  if text != "":
+    Text.config()
+  else:
+    messagebox.showwarning("Warning","You must enter something before enter it")
+  
+entry= tk.Entry()
+entry.pack(pady=5)
+button=tk.Button(text="update", command= ul())
+button.pack(pady=5)
+label=tk.Label(text="Your text appear here")
+label.pack(pady=5)
+  
+sc.mainloop()
