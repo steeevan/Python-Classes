@@ -1,1 +1,30 @@
-# It says that there was an error rendering a code block, I don't know what the H/W is.
+1.
+# Listbox -  a widget used to display different types of items
+# StringVar - helps manage the value of a widget
+# Messagebox -  a module that provides a template base class
+# Pack Geometry Manager - packs widgets relative to the earlier widget
+
+2.
+import tkinter as tk
+
+window = tk.Tk()
+window.title("Text")
+window.geometry("400x400")
+
+def update_label():
+    entry = entryWidget.get()
+    if entry != "":
+        labelWidget.config(entryWidget)
+    else:
+        messagebox.showwarning()
+
+entryWidget = tk.Entry(window, width=10)
+entryWidget.pack(pady = 5)
+
+buttonWidget = tk.Button(window, text="UPDATE", command=update_label())
+buttonWidget.pack(pady = 5)
+
+labelWidget = tk.Label(window, text="Your text will appear here")
+labelWidget.pack(pady = 5)
+
+root.mainloop()
