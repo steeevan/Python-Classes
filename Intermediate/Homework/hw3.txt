@@ -1,0 +1,35 @@
+### Homework Assignment: Basic Login System using Tkinter
+
+#### Objective:
+Students will create a basic login system using Tkinter in Python. 
+The system will have input fields for username and password, and a button to submit the entries.
+When the submit button is pressed, the program will print out the entered username and password.
+
+#### Instructions:
+
+1. **Setup Tkinter:**
+   - Import the `tkinter` module.
+   - Create the main application window.
+
+2. **Create Input Fields:**
+   - Create a label and entry widget for the username.
+   - Create a label and entry widget for the password (use `show='*'` to hide the password).
+
+3. **Create Submit Button:**
+   - Create a button that, when clicked, will trigger a function to print the entered username and password.
+
+4. **Display Widgets:**
+   - Arrange the labels, entry fields, and button using grid or pack layout.
+
+5. **Print User Entries:**
+   - Define a function that retrieves the text from the entry widgets and prints it to the console.
+
+
+#### Tips:
+- Test your program to ensure it runs without errors.
+- Make sure the submit button correctly prints the username and password.
+- Experiment with different layouts and styling to make the interface more user-friendly.
+
+---
+
+This assignment will help you get familiar with creating GUI applications using Tkinter and handling user inputs. Good luck!
