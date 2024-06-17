@@ -1,0 +1,31 @@
+1.
+import tkinter as tk
+
+window = tk.Tk()
+window.title("Login")
+window.geometry("400x400")
+
+user_label = tk.Label(window, text="Username:")
+user_label.pack(pady=5)
+
+user_entry = tk.Entry(window)
+user_entry.pack(pady=5)
+
+pass_label = tk.Label(window, text="Password:")
+pass_label.pack(pady=5)
+
+pass_entry = tk.Entry(window, show='*')
+pass_entry.pack(pady=5)
+
+sub_button = tk.Button(window, text="Submit Username & Password", command=print_info)
+sub_button.pack(pady=5)
+
+def print_info():
+    username = str(user_entry.get())
+    password = str(pass_entry.get())
+    print(username)
+    print(password)
+
+root.mainloop()
+
+# Whenever there is the command my button won't show up. Without 'command=' it shows up but it doesnt when its there.
