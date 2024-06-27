@@ -1,0 +1,17 @@
+import tkinter as tk
+root= tk.Tk()
+label1= tk.Label(screen ,text="username")
+label2= tk.Label(screen ,text="Password")
+label1.grid(row=0,column=1,padx=5,pady=5)
+label2.grid(row=1,column=1,padx=5,pady=5)
+entry1= tk.Entry(screen)
+entry2= tk.Entry(screen)
+entry1.grid(row=0,column=2,padx=5,pady=5)
+entry2.grid(row=1,column=2,padx=5,pady=5)
+def GetEntry():
+  username= entry1.get()
+  password= entry2.get()
+  print(username)
+  print(password)
+button=tk.Button(screen,text="configure to console", command= GetEntry)
+button.grid(row=2,column=1,padx=5,pady=5)
