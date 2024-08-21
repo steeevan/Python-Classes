@@ -1,0 +1,41 @@
+1.
+class Animal(self,sound):
+    self.sound = sound
+    def make_sound(sound):
+        print(sound)
+
+class Dog(Animal):
+    sound = 'bark'
+
+class Cat(Animal):
+    sound = 'meow'
+
+House_Cat = Cat(sound='meow')
+Poodle = Dog(sound='bark')
+
+make_sound(House_Cat)
+make_sound(Poodle)
+
+2.
+class Animal(self,sound):
+    self.sound = sound
+    def make_sound(sound):
+        print(sound)
+    def move():
+        print("The animal moved")
+
+def perform_action():
+    make_sound()
+    move()
+
+class Dog(Animal):
+    sound = 'bark'
+
+class Cat(Animal):
+    sound = 'meow'
+
+House_Cat = Cat(sound='meow')
+Poodle = Dog(sound='bark')
+
+peform_action(House_Cat)
+peform_action(Poodle)
