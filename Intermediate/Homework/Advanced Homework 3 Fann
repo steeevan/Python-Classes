@@ -1,0 +1,38 @@
+1.1
+class BankAccount(self,account_number,balance):
+    self.account_number = account_number
+    account_number = str(account_number)
+    self.balance = balance
+    balance = float(balance)
+# This is all the code I did for Question 1 because I didn't know how to do it.
+
+2.1
+class Vehicle(ABC):
+    @abstractmethod
+    def start_engine(self,start):
+        self.start = start
+        print("Car started engine")
+
+    @abstractmethod
+    def stop_engine(self, stop):
+        self.stop = stop
+        stop = random.randint(1,6)
+        print(f"Car stopped {stop} seconds")
+
+    @abstractmethod
+    def drive(self,drive):
+        self.drive = drive
+        drive = random.randint(1,10)
+        print(f"Car drove {drive} feet")
+
+2.2
+class Car(Vehicle):
+    Car.start_engine()
+    Car.stop_engine()
+    Car.drive()
+
+2.3
+class Car(Vehicle):
+    Car.start_engine()
+    Car.stop_engine()
+    Car.drive()
