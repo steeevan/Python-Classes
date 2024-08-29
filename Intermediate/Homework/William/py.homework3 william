@@ -1,0 +1,80 @@
+class bank_account():
+    def __init__(self,account_num,balance):
+        self.account_num=account_num
+        self.balance=balance
+    def get(self,balance):
+        self.balance=float(balance)
+        print(balance)
+    def set(self,balance):
+        self.balance=float(balance)
+
+
+import abc
+from abc import ABC, abstractmethod
+
+class vehicle(ABC):
+    @abstractmethod
+    
+    def start_engine(self):
+        pass
+    @abstractmethod
+    def stop_engine(self):
+        pass
+    @abstractmethod
+    def drive(self):
+        pass
+class car(vehicle):
+    def start_engine(self):
+       
+        print("Car started")
+    def drive(self):
+        print("Car drived")
+    def stop_engine(self):
+       
+        print("Car stopped")
+
+        
+   
+car= car()
+print(car.start_engine())
+print(car.drive())
+print(car.stop_engine())
+#A calculator. It has multiple method that can be applied.
+class calculator(ABC):
+    def multiply(self):
+        pass
+    def add():
+        pass
+    def subtract():
+        pass
+    def devide():
+        pass
+
+class calculate_method(calculator):
+    
+    def __init__(self,value1,value2):
+        self.value1=value1
+        self.value2=value2
+
+    def add(self,value1,value2):
+        return value1+value2
+    
+
+    def subtract(self,value1,value2):
+        return value1-value2
+    
+
+    def multiply(self,value1,value2):
+        return value1*value2
+    
+
+    def devide(self,value1,value2):
+        return value1/value2
+
+calculate= calculate_method(2,2)
+print(calculate.add(2,2))
+print(calculate.subtract(2,2))
+print(calculate.multiply(2,2))
+print(calculate.devide(2,2))
+
+        
