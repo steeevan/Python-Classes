@@ -1,0 +1,33 @@
+1.1
+class Computer:
+    def __init__(self,cpu,ram,storage):
+        self.cpu = cpu
+        self.ram = ram
+        self.storage = storage
+
+1.2
+class Computer:
+    def __init__(self,cpu,ram,storage):
+        self.cpu = cpu
+        self.ram = ram
+        self.storage = storage
+
+class Moniter:
+    def __init__(self,size,resolution):
+        self.size = size
+        self.resolution = resolution
+
+1.3
+class Computer:
+    def __init__(self,cpu,ram,storage):
+        self.cpu = cpu
+        self.ram = ram
+        self.storage = storage
+
+class Moniter:
+    def __init__(self,size,resolution):
+        self.size = size
+        self.resolution = resolution
+
+class Desktop(Computer,Moniter):
+    pass
