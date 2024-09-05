@@ -1,0 +1,33 @@
+class Computer():
+    def __init__(self,cpu,storage,ram):
+        self.cpu=cpu
+        self.storage=storage
+        self.ram=ram
+
+class Monitor():
+    def __init__(self,resolution,size):
+        self.size=size
+        self.resolution=resolution
+
+class Mouse():
+    def __init__(self,texture,light):
+        self.texture=texture
+        self.light=light
+
+class Keyboard():
+    def __init__(self,texture,light):
+        self.texture=texture
+        self.light=light
+
+
+
+
+
+
+
+
+
+class Desktop(Computer,Monitor,Mouse,Keyboard)()
+              pass
+
+#Let addon to that, in real life there is more. There might be keyboard and mouse as part as the desktop.
