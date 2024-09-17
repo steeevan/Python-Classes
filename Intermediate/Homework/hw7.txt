@@ -1,0 +1,35 @@
+Homework: Enhancing Your Tkinter To-Do List Application
+
+Objective: Practice your skills with Tkinter by working on a To-Do List application. 
+This homework will focus on adding functionality and improving the existing code based on what you've learned.
+
+Part I. Add a Clear All Tasks Button
+The current application allows users to add, remove, and mark tasks as completed, 
+  but does not provide a way to clear all tasks at once. 
+Implement a feature to clear all tasks from the list.
+1. Add a button labeled "Clear All Tasks" to the application window.
+2. Implement the clear_all_tasks() function to remove all tasks from the tasks and completed_status lists.
+3. Ensure that after clearing all tasks, the task_listbox and status labels are updated accordingly.
+
+Hints:
+  - You can use the task_listbox.delete(0, tk.END) method to clear the listbox.
+  - Remember to call update_listbox() after clearing the tasks to refresh the displayed information.
+
+Part II. Handle Empty Task Entry in add_task Function
+Currently, the add_task() function shows a warning if the task entry is empty. 
+  Improve this function to also handle cases where the task description might only contain whitespace.
+4. Modify the add_task() function to check if the task entry contains only whitespace (e.g., spaces or tabs).
+5. Ensure that the application shows a warning message if the task entry is empty or only contains whitespace.
+
+Hints:
+  - You can use the str.strip() method to remove leading and trailing whitespace from the task entry.
+
+Part III. Confirm Task Removal with a Dialog
+Enhance the remove_task() function to confirm with the user before removing a selected task. 
+  This will help prevent accidental deletions.
+7. Modify the remove_task() function to show a confirmation dialog before actually removing the selected task.
+8. Implement the confirmation dialog using messagebox.askyesno(), which should ask the user if they are sure they want to remove the selected task.
+9. Only remove the task if the user confirms the action.
+
+Hints:
+  - Use messagebox.askyesno() to display a confirmation dialog with "Yes" and "No" options.
