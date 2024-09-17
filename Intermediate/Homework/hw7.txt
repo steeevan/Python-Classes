@@ -1,35 +1,28 @@
 Homework: Enhancing Your Tkinter To-Do List Application
 
-Objective: Practice your skills with Tkinter by working on a To-Do List application. 
-This homework will focus on adding functionality and improving the existing code based on what you've learned.
-
-Part I. Add a Clear All Tasks Button
-The current application allows users to add, remove, and mark tasks as completed, 
-  but does not provide a way to clear all tasks at once. 
-Implement a feature to clear all tasks from the list.
-1. Add a button labeled "Clear All Tasks" to the application window.
-2. Implement the clear_all_tasks() function to remove all tasks from the tasks and completed_status lists.
-3. Ensure that after clearing all tasks, the task_listbox and status labels are updated accordingly.
-
+Problem 1: Add a Task Counter
+Instructions:
+- Add a label to the GUI that shows the total number of tasks in the listbox.
+- Update this label each time a task is added or removed.
 Hints:
-  - You can use the task_listbox.delete(0, tk.END) method to clear the listbox.
-  - Remember to call update_listbox() after clearing the tasks to refresh the displayed information.
+- Create a label with a descriptive text, such as "Total Tasks: 0".
+- Update this label in the add_task() and remove_task() functions.
 
-Part II. Handle Empty Task Entry in add_task Function
-Currently, the add_task() function shows a warning if the task entry is empty. 
-  Improve this function to also handle cases where the task description might only contain whitespace.
-4. Modify the add_task() function to check if the task entry contains only whitespace (e.g., spaces or tabs).
-5. Ensure that the application shows a warning message if the task entry is empty or only contains whitespace.
 
+Problem 2: Change Task Status
+Instructions:
+- Add a new button labeled "Toggle Task Status" in the GUI.
+- When this button is clicked, if a task is selected in the listbox, toggle its status between completed and uncompleted.
+- Ensure the listbox and status labels are updated to reflect the change.
 Hints:
-  - You can use the str.strip() method to remove leading and trailing whitespace from the task entry.
+- Use the mark_task_completed() function as a reference to modify the status.
+- Check if the task is already completed, then set it to uncompleted if it is, and vice versa.
 
-Part III. Confirm Task Removal with a Dialog
-Enhance the remove_task() function to confirm with the user before removing a selected task. 
-  This will help prevent accidental deletions.
-7. Modify the remove_task() function to show a confirmation dialog before actually removing the selected task.
-8. Implement the confirmation dialog using messagebox.askyesno(), which should ask the user if they are sure they want to remove the selected task.
-9. Only remove the task if the user confirms the action.
 
+Problem 3: Task Entry Validation
+Instructions:
+- Modify the add_task() function to ensure that the task entry is not just whitespace.
+- If the entry is only spaces or empty, display a warning message to the user.
 Hints:
-  - Use messagebox.askyesno() to display a confirmation dialog with "Yes" and "No" options.
+- Use the strip() method on the task entry to check for whitespace.
+- Display the warning using messagebox.showwarning() if the task is invalid.
