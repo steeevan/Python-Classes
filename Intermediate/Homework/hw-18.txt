@@ -1,0 +1,21 @@
+Homework 18
+
+Problem 1: Modify the add_item Function
+- Change the add_item function so that it also checks if the item already exists in the listbox before adding it. 
+- If the item exists, show a message box warning the user.
+
+Problem 2: Item Count Display
+- Add a label to the GUI that displays the total number of items currently in the listbox. 
+- Update this label whenever an item is added or removed.
+
+Problem 3: Enhance the remove_item Function
+- Modify the remove_item function to allow the user to remove multiple selected items from the listbox at once. 
+- Ensure that the function can handle the selection of more than one item.
+
+Problem 4: Implement Editing of Items
+- Create an "Edit Selected Item" button that allows the user to edit the currently selected item in the listbox. 
+- When clicked, the program should populate the entry widget with the selected item's text, allowing the user to change it and then update the item in the list.
+
+Problem 5: Save and Load List
+- Add functionality to save the current list of items to a text file and load them back into the listbox when the application starts. 
+- Create "Save" and "Load" buttons to implement this feature.
