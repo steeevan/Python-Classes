@@ -1,0 +1,32 @@
+Homework 10: Enhancing the Basic Login System
+
+Problem 1: Add a Clear Button
+- Create a new button labeled "Clear" that clears the username and password fields.
+- Write a function called clear_fields that sets both the username_entry and password_entry to empty strings.
+- Link the "Clear" button to the clear_fields function.
+
+  
+Problem 2: Username and Password Validation
+- Add a basic validation function that checks if the username and password fields are not empty before updating the result label.
+- If either field is empty, display a message in the result_label saying "Please enter both username and password."
+
+  
+Problem 3: Display a Welcome Message
+- Modify the update_result_on_screen function to display a welcome message in the format: "Welcome, [username]!" after successful validation.
+- Change the text in the result_label accordingly.
+
+  
+Problem 4: Change the Password Entry Field
+- Add a checkbox labeled "Show Password" that allows the user to toggle the visibility of the password.
+- When checked, the password should be visible (use show=''), and when unchecked, it should be hidden (use show='*').
+
+
+Problem 5: Customize the GUI
+- Change the background color of the main window to a light color (e.g., light blue).
+- Style the labels with a different font size or weight to make them stand out.
+
+  
+Additional Tips:
+- Utilize online resources, Python documentation, and course materials to reinforce your understanding.
+- Collaborate with classmates to discuss concepts and problem-solving.
+- Seek assistance from your instructor or classmates if you encounter difficulties.
