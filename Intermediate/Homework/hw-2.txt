@@ -4,19 +4,29 @@ Problem 1: Random Walk Variations
 - Modify the random walk code to make the turtle move forward by a random distance between 10 and 50 units each time. 
 - Adjust the angle so that the turtle turns by a random angle between 0 and 180 degrees.
 
+
 Problem 2: Random Color Changing
 - Enhance the random walk code by changing the pen color randomly for each movement.
 - Use a list of colors and pick one randomly for each segment of the walk.
+
 
 Problem 3: Spirograph with Variable Radii
 - Create a new function that draws a spirograph with variable radii. 
   Instead of a fixed radius, make the radius of each circle a random number between 50 and 150 units. 
   The turtle should still rotate by the specified angle.
 
+
 Problem 4: Multiple Spirographs
 - Write a program that creates multiple spirographs with different sizes and colors.
 - Use a loop to draw three spirographs, each with a different size (e.g., 5, 10, and 15 degrees) and a different starting position.
 
+
 Problem 5: Random Spirograph with Random Colors and Radii
 - Create a function that draws a spirograph where both the radius of the circles and the pen color are chosen randomly.
   The function should draw a spirograph with a random radius between 50 and 150 units and use random colors for each circle.
+
+  
+Additional Tips:
+- Utilize online resources, Python documentation, and course materials to reinforce your understanding.
+- Collaborate with classmates to discuss concepts and problem-solving.
+- Seek assistance from your instructor or classmates if you encounter difficulties.
