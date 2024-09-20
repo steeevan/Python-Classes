@@ -1,0 +1,31 @@
+Homework 15: Enhancing the Turtle Graphics Shape Drawer
+
+Problem 1: Add More Shapes
+- Extend the list of possible shapes by adding at least three more shapes (e.g., octagon, heart, rectangle).
+- Implement the drawing logic for each new shape.
+
+  
+Problem 2: Shape Size Variability
+- Modify the draw_shape function to draw shapes with a more dynamic range of sizes.
+- Ensure that each shape has a minimum size (e.g., circle with radius at least 20, square with side length at least 20).
+
+  
+Problem 3: Color Customization
+- Allow the user to specify their own set of colors.
+- Create a list of colors that the user can modify before the drawing starts.
+
+  
+Problem 4: User Input for Number of Shapes
+- Prompt the user to enter the number of shapes they want to draw at the beginning of the program.
+- Use this input to determine how many shapes will be drawn instead of the hard-coded 30.
+
+  
+Problem 5: Shape Outline
+- Modify the draw_shape function to add a black outline to each shape.
+- Use turtle.pendown() and turtle.pencolor("black") before drawing each shape.
+  
+
+Additional Tips:
+- Utilize online resources, Python documentation, and course materials to reinforce your understanding.
+- Collaborate with classmates to discuss concepts and problem-solving.
+- Seek assistance from your instructor or classmates if you encounter difficulties.
