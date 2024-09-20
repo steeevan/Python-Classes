@@ -1,0 +1,35 @@
+Homework 16: Expanding the Turtle Graphics Project
+
+Problem 1: Add New Shapes
+- Extend the shape_type list by adding at least three new shapes (e.g., octagon, heart, or rectangle).
+- Implement the drawing logic for each new shape in the draw_shape function.
+
+  
+Problem 2: Dynamic Shape Sizes
+- Modify the random size generation so that each shape has a minimum size:
+  - Circle: minimum radius of 20
+  - Square: minimum side length of 20
+  - Triangle: minimum side length of 20
+  - New shapes should also have appropriate minimum sizes.
+
+  
+Problem 3: User Input for Shape Count
+- Before starting the drawing, prompt the user to enter how many shapes they want to draw (using input()).
+- Use this value to determine the number of shapes drawn in the loop instead of the hard-coded 30.
+
+  
+Problem 4: Shape Outlines
+- Modify the draw_shape function to add a black outline to each shape.
+  - Set the pen color to black before drawing each shape.
+  - Ensure that the outline does not fill the shape.
+
+  
+Problem 5: Color Palette Customization
+- Allow the user to specify a list of colors at the start of the program.
+- Prompt them to enter colors separated by commas, then split and store these in the colors list.
+
+
+Additional Tips:
+- Utilize online resources, Python documentation, and course materials to reinforce your understanding.
+- Collaborate with classmates to discuss concepts and problem-solving.
+- Seek assistance from your instructor or classmates if you encounter difficulties.
