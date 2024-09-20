@@ -1,0 +1,31 @@
+Homework 12: Enhancing the Turtle Race Game
+
+Problem 1: Add a Reset Button
+- Create a button labeled "Reset Race" that allows the user to reset the race and create new turtles.
+- Write a function called reset_race that clears the turtle graphics and prompts the user to enter the number of turtles again.
+
+  
+Problem 2: Add a Timer
+- Implement a timer that tracks how long the race takes. Display the elapsed time in the Turtle graphics window when the race finishes.
+- Use Python's time module to record the start and end time of the race.
+
+  
+Problem 3: User Input for Turtle Names
+- Modify the get_racers function to allow users to input names for each turtle. Store these names in a list and display the name of the winning turtle at the end of the race.
+- If the user does not enter a name, default to "Turtle X" (where X is the turtle's number).
+
+  
+Problem 4: Change Turtle Speed
+- Add a slider in the Tkinter GUI to adjust the speed of the turtles (from 1 to 10, where 10 is the fastest).
+- Use this speed setting in the move_turtle function to control how far the turtles move each time.
+
+
+Problem 5: Improve the User Interface
+- Style the Tkinter GUI with a different background color and font for the buttons.
+- Add labels to indicate the turtle names, their current positions, or the status of the race (e.g., "Race in Progress...").
+
+
+Additional Tips:
+- Utilize online resources, Python documentation, and course materials to reinforce your understanding.
+- Collaborate with classmates to discuss concepts and problem-solving.
+- Seek assistance from your instructor or classmates if you encounter difficulties.
