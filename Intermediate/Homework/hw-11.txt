@@ -1,0 +1,31 @@
+Homework 11: Enhancing the Dice Rolling App
+
+Problem 1: Add a Reset Button
+- Create a button labeled "Reset" that resets the rolls list and clears the rolls table.
+- Write a function called reset_game that clears the rolls list, resets the guess_counter, and updates the relevant labels and table.
+
+  
+Problem 2: Improve User Input Handling
+- Add a label above the entry widget that instructs users to "Enter a number between 1 and 6:".
+- Ensure that the entry field is cleared after each roll, regardless of whether the guess was correct.
+
+  
+Problem 3: Add a History Feature
+- Create a new label to display the total number of rolls after each dice roll (e.g., "Total Rolls: X").
+- Update this label each time a roll is made.
+
+  
+Problem 4: Style the GUI
+- Change the background color of the main window to a light color (e.g., light green).
+- Style the labels and buttons with different fonts and colors to make them more visually appealing.
+
+  
+Problem 5: Include Sound Effects
+- Add a sound effect that plays when the dice is rolled (you can use a simple placeholder function that prints a message, e.g., "Playing sound...").
+- Use the pygame library or similar to play a sound file if you have access to one.
+
+
+Additional Tips:
+- Utilize online resources, Python documentation, and course materials to reinforce your understanding.
+- Collaborate with classmates to discuss concepts and problem-solving.
+- Seek assistance from your instructor or classmates if you encounter difficulties.
