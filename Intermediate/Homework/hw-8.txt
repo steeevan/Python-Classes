@@ -1,0 +1,30 @@
+Homework 8
+
+Problem 1: Modify the Calculator
+Using the code provided, add a multiplication operation to the calculator. Follow these steps:
+- Create a new function called multiply that takes two arguments and returns their product.
+- Update the calculate function to include multiplication when the user selects the "*" operation from the dropdown.
+- Add "*" to the dropdown menu of operations.
+Hint: Remember to handle any potential errors.
+
+
+Problem 2: Create a Division Function
+- Write a function named divide that takes two numbers and returns the result of dividing the first number by the second.
+- Update the calculate function to include division when the user selects the "/" operation.
+- Add "/" to the dropdown menu of operations. Make sure to handle division by zero!
+
+
+Problem 3: Customizing the GUI
+- Change the title of the calculator window to "Simple Math Calculator".
+- Add a background color to the window (for example, light blue).
+- Modify the text of the buttons to "Compute" and "Reset" instead of "Calculate" and "Clear".
+
+  
+Problem 4: Create a Reset Function
+- Write a new function called reset that not only clears the entry fields but also sets the dropdown menu back to the default operation ("+").
+- Update the "Reset" button to call this new function instead of the clear function.
+
+
+Problem 5: User Experience Improvement
+- Add a label above the entry fields that says "Enter two numbers:".
+- Ensure that the label is centered and visually distinct (consider making the font bold).
