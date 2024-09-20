@@ -1,0 +1,43 @@
+Homework 17: Enhancing the Contact Manager
+
+Problem 1: Add Address Field
+- Objective: Enhance the contact manager by adding an address field.
+- Instructions:
+  - Create a new label and entry field for the address.
+  - Update the save_contact function to include the address in the contact information.
+  - Make sure to display the address when showing the contacts.
+
+  
+Problem 2: Search Functionality
+- Objective: Implement a search feature to find contacts by name.
+- Instructions:
+  - Create a new entry field and button labeled "Search Contact."
+  - Implement a function that searches through the contacts list and displays any matches in a message box.
+
+  
+Problem 3: Delete Contacts
+- Objective: Allow users to delete a contact from the list.
+- Instructions:
+  - Create a new button labeled "Delete Contact."
+  - Implement a function that prompts the user to enter a name and deletes the matching contact from the contacts list.
+  - Show a message indicating whether the deletion was successful or if the contact was not found.
+
+  
+Problem 4: Data Validation
+- Objective: Ensure all inputs are valid before saving.
+- Instructions:
+  - Check if the phone number contains only digits. If it doesn’t, show a warning message.
+  - Ensure the email format is valid. You can use a simple check to see if it contains an "@" symbol.
+
+
+Problem 5: Improved Display
+- Objective: Enhance the display of the contact list.
+- Instructions:
+  - Instead of a simple label, create a Text widget in the display_contacts function to show the contact list.
+  - Use the insert method to add each contact to the Text widget, making it scrollable.
+
+  
+Additional Tips:
+- Utilize online resources, Python documentation, and course materials to reinforce your understanding.
+- Collaborate with classmates to discuss concepts and problem-solving.
+- Seek assistance from your instructor or classmates if you encounter difficulties.
