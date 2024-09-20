@@ -1,7 +1,7 @@
 Homework 8
 
 Problem 1: Modify the Calculator
-Using the code provided, add a multiplication operation to the calculator. Follow these steps:
+Using the code provided in class, add a multiplication operation to the calculator. Follow these steps:
 - Create a new function called multiply that takes two arguments and returns their product.
 - Update the calculate function to include multiplication when the user selects the "*" operation from the dropdown.
 - Add "*" to the dropdown menu of operations.
@@ -28,3 +28,9 @@ Problem 4: Create a Reset Function
 Problem 5: User Experience Improvement
 - Add a label above the entry fields that says "Enter two numbers:".
 - Ensure that the label is centered and visually distinct (consider making the font bold).
+
+  
+Additional Tips:
+- Utilize online resources, Python documentation, and course materials to reinforce your understanding.
+- Collaborate with classmates to discuss concepts and problem-solving.
+- Seek assistance from your instructor or classmates if you encounter difficulties.
