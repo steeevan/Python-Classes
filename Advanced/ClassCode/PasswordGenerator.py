@@ -54,11 +54,3 @@ class PasswordGeneratorApp:
         else:
             messagebox.showwarning("No password", "Please generate a password first.")
 
-# Create the root window
-root = tk.Tk()
-
-# Create an instance of the PasswordGeneratorApp class
-app = PasswordGeneratorApp(root)
-
-# Start the Tkinter event loop
-root.mainloop()
