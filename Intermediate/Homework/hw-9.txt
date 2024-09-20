@@ -1,0 +1,29 @@
+Homework 9: Enhancing the Simple Drawing App
+
+Problem 1: Add a Brush Size Reset Button
+- Create a new button labeled "Reset Size" in the options frame.
+- Write a function called reset_brush_size that resets the brush size back to the default (5).
+- Link the button to the reset_brush_size function.
+
+
+Problem 2: Add a Background Color Option
+- Create a button labeled "Change Background" that allows users to choose a background color for the canvas.
+- Use colorchooser to let the user select a color and update the canvas background color accordingly.
+
+
+Problem 3: Save the Drawing
+- Add a button labeled "Save Drawing" that saves the current canvas drawing as an image 
+file (use a simple placeholder function to print a message, e.g., "Drawing saved!").
+- You can implement this as a simple function for now, and you can explore image saving methods later.
+
+
+Problem 4: Create a Line Drawing Mode
+- Add a button labeled "Line Mode" that switches the drawing mode from ovals to lines.
+- Write the logic to handle drawing lines instead of ovals when this mode is activated. 
+  Make sure to use the mouse events to capture start and end points for the lines.
+
+
+Problem 5: Drawing Instructions
+- Above the canvas, add a label that provides simple instructions for using the 
+app (e.g., "Draw by clicking and dragging the mouse. Change color and size using the buttons and slider.").
+- Style the label to make it visually appealing (e.g., bold text or a different color).
