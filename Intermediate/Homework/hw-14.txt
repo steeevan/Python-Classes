@@ -1,0 +1,31 @@
+Homework 14: Enhancing the Text Editor Application
+
+Problem 1: Implement the New File Functionality
+- Add functionality to the "New" menu option that clears the text area when selected.
+- Ensure that the user is prompted to save any unsaved changes before clearing the text area.
+
+  
+Problem 2: Implement the Open File Functionality
+- Implement the "Open" menu option to allow users to select a text file and load its contents into the text area.
+- Use filedialog.askopenfilename to open the file dialog and read the file contents.
+
+  
+Problem 3: Implement the Save File Functionality
+- Implement the "Save" menu option to allow users to save the current text in the text area to a file.
+- Use filedialog.asksaveasfilename to open a dialog for saving files.
+
+
+Problem 4: Add a Status Bar
+- Create a status bar at the bottom of the window that displays the number of characters in the text area.
+- Update this status bar in real-time as the user types.
+
+
+Problem 5: Customize the Appearance
+- Add a button in the menu bar to change the font style and size of the text in the text area.
+- Allow the user to select from a few predefined font styles (e.g., Arial, Times New Roman).
+
+  
+Additional Tips:
+- Utilize online resources, Python documentation, and course materials to reinforce your understanding.
+- Collaborate with classmates to discuss concepts and problem-solving.
+- Seek assistance from your instructor or classmates if you encounter difficulties.
