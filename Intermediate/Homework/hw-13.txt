@@ -1,0 +1,31 @@
+Homework 13: Enhancing the Clock Application
+
+Problem 1: Add More Time Zones
+- Expand the time_zone dictionary to include at least three more time zones (e.g., GMT, IST, CEST).
+- Update the dropdown menu to reflect the new time zones.
+
+
+Problem 2: Add a Digital Clock Format Option
+- Create a second dropdown menu that allows users to choose between a 12-hour format and a 24-hour format.
+- Modify the update_time function to format the time according to the selected format.
+
+
+Problem 3: Custom Background and Font Color
+- Add two new buttons labeled "Change Background Color" and "Change Font Color."
+- When clicked, these buttons should open a color chooser dialog that allows users to select a new background and font color for the time label.
+
+
+Problem 4: Display the Date
+- Modify the time display to include the current date in addition to the time. Use a format like "YYYY-MM-DD".
+- Update the time_label to show both the date and the time.
+
+
+Problem 5: Add a Reset Button
+- Create a button labeled "Reset" that resets the clock to the default time zone (e.g., PST).
+- Ensure that the clock updates accordingly after pressing the reset button.
+
+
+Additional Tips:
+- Utilize online resources, Python documentation, and course materials to reinforce your understanding.
+- Collaborate with classmates to discuss concepts and problem-solving.
+- Seek assistance from your instructor or classmates if you encounter difficulties.
