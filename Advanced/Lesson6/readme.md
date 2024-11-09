@@ -44,19 +44,7 @@ This project implements a Student Data Management System using Object-Oriented P
 
 ---
 
-## How to Run
 
-1. Clone this repository.
-2. Run `main.py` to execute the system.
-3. Use the interactive functions to manage student data.
-
----
-
-## Future Enhancements
-
-- Add a GUI for better user interaction.
-- Include error handling for invalid inputs.
-- Extend functionalities to manage multiple grades per class.
 
 ---
 
