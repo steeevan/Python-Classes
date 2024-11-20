@@ -236,5 +236,3 @@ print("Final shopping list:", shopping_list)
 ```
 
 --- 
-
-These problems and solutions provide a structured approach to learning and practicing Python's data types and list manipulation concepts.
